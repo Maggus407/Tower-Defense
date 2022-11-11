@@ -531,7 +531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a44a4fdfa7c2a3c438095b4e5b516fce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minPathLength: 30
+  minPathLength: 60
   pathTile: {fileID: 1262887121042734, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
   buildTile: {fileID: 1619558185565566, guid: 1d9cc67243350f643b8c562ed0503c49, type: 3}
   waypoint: {fileID: 1980818555860597868, guid: 0fc6521f6fca7144184888019043c189, type: 3}

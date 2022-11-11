@@ -29,8 +29,10 @@ public class Gridmanager : MonoBehaviour
     void Start(){
         pathgenerator = new Pathgenerator(gridWidth, gridHeight);
         List<Vector2Int> pathcells = pathgenerator.GeneratePath();
-        while(minPathLength > pathcells.Count){
-            pathgenerator.GeneratePath();
+        int pathSize = pathcells.Count;
+        while(minPathLength > pathSize){
+            pathcells = pathgenerator.GeneratePath();
+            pathSize = pathcells.Count;
         }
         List<Vector2Int> buildcells = pathgenerator.BuildCells();
         StartCoroutine(BauePath(pathcells));

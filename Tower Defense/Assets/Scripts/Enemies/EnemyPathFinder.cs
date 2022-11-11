@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyPathFinder : MonoBehaviour
 {
 
+     [Header("Enemie-Speed")]
    public float speed = 10f;
 
    private Transform target;
