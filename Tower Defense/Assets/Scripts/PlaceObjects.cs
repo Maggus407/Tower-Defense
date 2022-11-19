@@ -39,8 +39,7 @@ public class PlaceObjects : MonoBehaviour
         RaycastHit hitInfo;
         if(Physics.Raycast(ray, out hitInfo)){
             placableHit = hitInfo;
-            Debug.Log(hitInfo.point.x + " " + hitInfo.point.y + " " + hitInfo.point.z);
-            currentPlaceableObject.transform.position = new Vector3(hitInfo.point.x, hitInfo.point.y+1, hitInfo.point.z);
+            currentPlaceableObject.transform.position = new Vector3(hitInfo.point.x, hitInfo.point.y, hitInfo.point.z);
         }
     }
 }

@@ -741,7 +741,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 963194227}
-  placeTurretPrefab: {fileID: 32817622006629020, guid: 0bd912ddab087fb4d989967d067d4df5, type: 3}
+  placeTurretPrefab: {fileID: 5835313711513797962, guid: b92d2f5b3a1ff3b4b8a8013b71f79a74, type: 3}
 --- !u!1 &1487980009
 GameObject:
   m_ObjectHideFlags: 0

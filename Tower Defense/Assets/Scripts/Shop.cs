@@ -9,7 +9,6 @@ public class Shop : MonoBehaviour
     }
 
     public void PurchaseStandardTurret(){
-        Debug.Log("1");
         placeTurret.enabled = true;
         placeTurret.Update();
     }
