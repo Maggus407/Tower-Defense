@@ -6,7 +6,7 @@ public class EnemyPathFinder : MonoBehaviour
 {
 
      [Header("Enemie-Speed")]
-   public float speed = 10f;
+   public float speed = 2f;
 
    private Transform target;
    private int wavepointIndex = 0;
@@ -15,6 +15,8 @@ public class EnemyPathFinder : MonoBehaviour
 
    void Start(){
         target = pathfinder[wavepointIndex].transform;
+        //Ignoriert alle Collisions --> Damit Enemies sich auch überholen können
+        Physics.IgnoreLayerCollision(0, 6, true);
    }
 
    void Update(){

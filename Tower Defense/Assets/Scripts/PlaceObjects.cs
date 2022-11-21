@@ -10,6 +10,10 @@ public class PlaceObjects : MonoBehaviour
     private GameObject currentPlaceableObject;
     RaycastHit placableHit;
 
+    void Start(){
+        Physics.IgnoreLayerCollision(6,6);
+    }
+
     // Update is called once per frame
     public void Update()
     {
@@ -39,7 +43,7 @@ public class PlaceObjects : MonoBehaviour
         RaycastHit hitInfo;
         if(Physics.Raycast(ray, out hitInfo)){
             placableHit = hitInfo;
-            currentPlaceableObject.transform.position = new Vector3(hitInfo.point.x, hitInfo.point.y, hitInfo.point.z);
+            currentPlaceableObject.transform.position = new Vector3(hitInfo.point.x, hitInfo.point.y+0.2f, hitInfo.point.z);
         }
     }
 }

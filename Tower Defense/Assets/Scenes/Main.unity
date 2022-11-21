@@ -531,18 +531,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a44a4fdfa7c2a3c438095b4e5b516fce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minPathLength: 60
-  pathTile: {fileID: 1262887121042734, guid: 89843090f5c38c24c9500fe9490ba5c4, type: 3}
-  buildTile: {fileID: 1619558185565566, guid: 1d9cc67243350f643b8c562ed0503c49, type: 3}
+  minPathLength: 65
+  pathTileStraight: {fileID: 402272631722048278, guid: 667dc5ee97ab130489543f7796159381, type: 3}
+  pathTileCorner: {fileID: 3772516793252621360, guid: 52dd2708bc565d640b3d90e955d0e4f2, type: 3}
+  buildTile: {fileID: 900215867413458739, guid: 7a8bae1f8e567a847be1e59b6b9cf182, type: 3}
   waypoint: {fileID: 1980818555860597868, guid: 0fc6521f6fca7144184888019043c189, type: 3}
   waveSpawner: {fileID: 7004076501752898038, guid: 53d02181f9b1b6642bf2601b2b30cd97, type: 3}
   Kiste: {fileID: 1362255755749402, guid: 1b5d1a6deebd81e4bba2448d18378844, type: 3}
   Tree:
-  - {fileID: 1726046091689300, guid: 7ad57e94574375240b181f8584be81c2, type: 3}
-  - {fileID: 1685073300064356, guid: eb322b3f7ad50984197dced1b53b11ee, type: 3}
-  - {fileID: 1478007673441398, guid: 7747cd3716304194fb26aa4e29900eb1, type: 3}
-  - {fileID: 1296487970245184, guid: f4f82206765cef54ca8f19ce34136e8a, type: 3}
-  - {fileID: 1398384037247820, guid: 018e38b65bc9fb048a9c4271cdad70c2, type: 3}
+  - {fileID: 1755297518104830, guid: bb8b831afcc06c64f9df984b2ccb8642, type: 3}
+  - {fileID: 1852941587909970, guid: 45fe3ec28eac2064d985117cf812ef9d, type: 3}
   grass: {fileID: 1685531937540468, guid: 6c919ec1c1e88a94c95afc28b198b9f8, type: 3}
 --- !u!1 &963194225
 GameObject:
@@ -620,14 +618,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.47398058, y: 0, z: 0, w: 0.8805353}
-  m_LocalPosition: {x: 13.931998, y: 18.277086, z: -6.49}
+  m_LocalRotation: {x: 0.521802, y: -0, z: -0, w: 0.8530667}
+  m_LocalPosition: {x: 13.22, y: 14.64, z: -2.58}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 56.586, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 62.906, y: 0, z: 0}
 --- !u!1 &1257038916
 GameObject:
   m_ObjectHideFlags: 0
