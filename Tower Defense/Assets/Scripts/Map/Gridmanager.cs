@@ -10,11 +10,15 @@ public class Gridmanager : MonoBehaviour
 
     private Pathgenerator pathgenerator;
     [Header("Path")]
+    public GameObject firstTilefromSpawn;
     public GameObject pathTileStraight;
     public GameObject pathTileCorner;
 
     [Header("EnvironmentGround")]
     public GameObject buildTile;
+
+    [Header("Base")]
+    public GameObject Base;
 
     [Header("Waypoint")]
     public GameObject waypoint;
@@ -58,10 +62,12 @@ public class Gridmanager : MonoBehaviour
                 GameObject path = new GameObject();
                 //Der erste Block immer Straight richtung X
                 if(i == 0){
-                Instantiate(pathTileStraight, new Vector3(pathcells[i].x, 0f, pathcells[i].y), transform.rotation * Quaternion.Euler(0f, 90f,0f));
+                Instantiate(firstTilefromSpawn, new Vector3(pathcells[i].x, 0f, pathcells[i].y), transform.rotation * Quaternion.Euler(0f, 90f,0f));
+                continue;
                 }
                 if(i == pathcells.Count - 1){
                     Instantiate(pathTileStraight, new Vector3(pathcells[i].x, 0f, pathcells[i].y), transform.rotation * Quaternion.Euler(0f, 90f,0f));
+                    Instantiate(Base, new Vector3(pathcells[i].x, 0.2f, pathcells[i].y), Quaternion.identity);
                     path = Instantiate(waypoint, new Vector3(pathcells[i].x, 0.6f, pathcells[i].y), Quaternion.identity);
                     enemiePath.Add(path);
                     yield return new WaitForSeconds(0.02f);

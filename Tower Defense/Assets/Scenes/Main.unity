@@ -532,9 +532,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minPathLength: 65
+  firstTilefromSpawn: {fileID: 2301211776600634475, guid: 8468a73b8dd617440829b80c6c50f1e6, type: 3}
   pathTileStraight: {fileID: 402272631722048278, guid: 667dc5ee97ab130489543f7796159381, type: 3}
   pathTileCorner: {fileID: 3772516793252621360, guid: 52dd2708bc565d640b3d90e955d0e4f2, type: 3}
   buildTile: {fileID: 900215867413458739, guid: 7a8bae1f8e567a847be1e59b6b9cf182, type: 3}
+  Base: {fileID: 3061561639941530202, guid: 94f36a28a9cd89f47a92548528345306, type: 3}
   waypoint: {fileID: 1980818555860597868, guid: 0fc6521f6fca7144184888019043c189, type: 3}
   waveSpawner: {fileID: 7004076501752898038, guid: 53d02181f9b1b6642bf2601b2b30cd97, type: 3}
   Kiste: {fileID: 1362255755749402, guid: 1b5d1a6deebd81e4bba2448d18378844, type: 3}

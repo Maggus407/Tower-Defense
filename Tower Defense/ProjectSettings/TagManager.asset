@@ -7,6 +7,7 @@ TagManager:
   - CantPlace
   - Placeable
   - Enemy
+  - Water
   layers:
   - Default
   - TransparentFX
