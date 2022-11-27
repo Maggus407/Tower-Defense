@@ -623,3 +623,205 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006398 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1053ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (809ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (309ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3346 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (79.8 KB). Loaded Objects now: 3836.
+Memory consumption went from 115.5 MB to 115.4 MB.
+Total: 5.547200 ms (FindLiveObjects: 0.341300 ms CreateObjectMapping: 0.265500 ms MarkObjects: 4.783300 ms  DeleteObjects: 0.155700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2626.011836 seconds.
+  path: Assets/Scripts/Enemies/EnemyPathFinder.cs
+  artifactKey: Guid(24f68f2a03ca8a64888220b5925a2c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemies/EnemyPathFinder.cs using Guid(24f68f2a03ca8a64888220b5925a2c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a06576365698ad25ff1294c0c4863f') in 0.007202 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005493 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.074 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1075ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (841ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (378ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3346 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.8 KB). Loaded Objects now: 3839.
+Memory consumption went from 115.5 MB to 115.4 MB.
+Total: 4.328800 ms (FindLiveObjects: 0.245300 ms CreateObjectMapping: 0.152600 ms MarkObjects: 3.794100 ms  DeleteObjects: 0.135700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24.696261 seconds.
+  path: Assets/FBX/GunTower/SchussTowerLVL1.fbx
+  artifactKey: Guid(8bfc825f83a8709499f027d6bfc1d0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/GunTower/SchussTowerLVL1.fbx using Guid(8bfc825f83a8709499f027d6bfc1d0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9071fbc8b8b5c2447fb885fc82ce497e') in 0.313337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.531994 seconds.
+  path: Assets/FBX/GunTower/Materials
+  artifactKey: Guid(6671713990bbbc04b9c43c9b6874419c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/GunTower/Materials using Guid(6671713990bbbc04b9c43c9b6874419c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e403fbd0d5efa3c44604d2140371e371') in 0.006241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.540191 seconds.
+  path: Assets/FBX/GunTower/Materials/ambientCG_Metal032_1K_JPG.001.mat
+  artifactKey: Guid(2545081f0e61dcf42aa0cd9856579816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/GunTower/Materials/ambientCG_Metal032_1K_JPG.001.mat using Guid(2545081f0e61dcf42aa0cd9856579816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fe9e1b1382a025871a3a3534224aa7') in 0.042625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FBX/GunTower/Materials/ambientCG_Plastic008_1K_JPG.mat
+  artifactKey: Guid(fef8245ff98c88f45b59ea82f8150985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/GunTower/Materials/ambientCG_Plastic008_1K_JPG.mat using Guid(fef8245ff98c88f45b59ea82f8150985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834674dc06be76fba7e0390a93a6b305') in 0.014183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FBX/GunTower/Materials/Material.mat
+  artifactKey: Guid(7c79ed79febfbb7439035ee41bfbfbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/GunTower/Materials/Material.mat using Guid(7c79ed79febfbb7439035ee41bfbfbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea55f565f32178339de557ab293483c8') in 0.012764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.330944 seconds.
+  path: Assets/FBX/GunTower/textures
+  artifactKey: Guid(8eacdcc6b5623fd42a60f25b3dc63ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/GunTower/textures using Guid(8eacdcc6b5623fd42a60f25b3dc63ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf57abba74469ec0c2f5eb94ddd438d') in 0.005581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031213 seconds.
+  path: Assets/FBX/GunTower/textures/Metal032_1K_Color.jpg
+  artifactKey: Guid(9e00d73aa774e844d815e6eff4d36aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/GunTower/textures/Metal032_1K_Color.jpg using Guid(9e00d73aa774e844d815e6eff4d36aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d4e7aae2a5e2e4d5ae9c81e2188e92') in 0.035456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FBX/GunTower/textures/Metal032_1K_NormalGL.jpg
+  artifactKey: Guid(eabc8b3226fbe5442bcdfb5f877ec38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/GunTower/textures/Metal032_1K_NormalGL.jpg using Guid(eabc8b3226fbe5442bcdfb5f877ec38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2703bed54c376c669fbb42230c467b58') in 0.016677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FBX/GunTower/textures/Metal035_1K_Roughness.jpg
+  artifactKey: Guid(d9589488d7e3bf343b23a4c41581d2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/GunTower/textures/Metal035_1K_Roughness.jpg using Guid(d9589488d7e3bf343b23a4c41581d2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f9aec168f86a9ef6a549f53aa608c1') in 0.012973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FBX/GunTower/textures/Metal032_1K_Roughness.jpg
+  artifactKey: Guid(7fce566b3bba4b9409987a493af2b732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/GunTower/textures/Metal032_1K_Roughness.jpg using Guid(7fce566b3bba4b9409987a493af2b732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9add64ca6823e5e7029b53a291a24f9a') in 0.014659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FBX/GunTower/textures/Metal035_1K_Color.jpg
+  artifactKey: Guid(46ce0654471df8b43b145dadf9b4d1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/GunTower/textures/Metal035_1K_Color.jpg using Guid(46ce0654471df8b43b145dadf9b4d1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738c226af13f2548f49f0c828af81741') in 0.015777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FBX/GunTower/textures/Plastic008_1K_NormalGL.jpg
+  artifactKey: Guid(210694cf4e3dc644ab38700f43d8ea14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/GunTower/textures/Plastic008_1K_NormalGL.jpg using Guid(210694cf4e3dc644ab38700f43d8ea14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc40f709c2550458d94d6f613f837b1') in 0.013518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FBX/GunTower/textures/Metal035_1K_Metalness.jpg
+  artifactKey: Guid(d4a79842462a489439268f1c4f3c5e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/GunTower/textures/Metal035_1K_Metalness.jpg using Guid(d4a79842462a489439268f1c4f3c5e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425eb1ea3d62fd554faf7d8771c304aa') in 0.012340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.890370 seconds.
+  path: Assets/FBX/GunTower/Materials/ambientCG_Metal035_1K_JPG.mat
+  artifactKey: Guid(a22d3c56439398143a7fd9461a29f80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/GunTower/Materials/ambientCG_Metal035_1K_JPG.mat using Guid(a22d3c56439398143a7fd9461a29f80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9fb7f79fafce7de633d4ae13491921') in 0.011901 seconds 
