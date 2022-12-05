@@ -8,6 +8,8 @@ public class EnemyPathFinder : MonoBehaviour
      [Header("Enemie-Speed")]
    public float speed = 2f;
 
+    public int health = 100;
+
    private Transform target;
    private int wavepointIndex = 0;
    List<GameObject> pathfinder = Gridmanager.enemiePath;
@@ -17,6 +19,21 @@ public class EnemyPathFinder : MonoBehaviour
         //Ignoriert alle Collisions --> Damit Enemies sich auch überholen können
         Physics.IgnoreLayerCollision(0, 6, true);
    }
+
+    public void TakeDamage (int amount)
+    {
+        health -= amount;
+
+        if(health <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Destroy(gameObject);
+    }
 
    void Update(){
         Vector3 dir = target.position - transform.position;
