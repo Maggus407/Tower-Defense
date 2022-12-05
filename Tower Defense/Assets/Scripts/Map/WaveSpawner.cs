@@ -3,6 +3,8 @@ using System.Collections;
 
 public class WaveSpawner : MonoBehaviour
 {
+
+    public static int EnemiesAlive = 0;
     public Transform enemyPrefab;
     public Transform spawnPoint;
 
@@ -36,6 +38,7 @@ public class WaveSpawner : MonoBehaviour
     //Spawnt den Enemie am WaveSpawner
     void SpawnEnemy(){
         Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+        EnemiesAlive++;
     }
 
 }

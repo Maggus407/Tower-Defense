@@ -10,7 +10,6 @@ public class EnemyPathFinder : MonoBehaviour
 
    private Transform target;
    private int wavepointIndex = 0;
-
    List<GameObject> pathfinder = Gridmanager.enemiePath;
 
    void Start(){
@@ -31,10 +30,21 @@ public class EnemyPathFinder : MonoBehaviour
      //Wenn der Enemie den letzten Block erreicht hat zerstört er sich
    void GetNextWaypoint(){
         if(wavepointIndex >= pathfinder.Count - 1){
-            Destroy(gameObject);
+            EndPath();
             return;
         }
         wavepointIndex++;
         target = pathfinder[wavepointIndex].transform;
    }
+
+    void EndPath()
+    {
+        if(PlayerStats.Lives > 0)
+        {
+            PlayerStats.Lives--;
+        }
+        
+        Destroy(gameObject);
+    }
+
 }
