@@ -4,17 +4,23 @@ using System.Collections;
 public class WaveSpawner : MonoBehaviour
 {
 
-    public static int EnemiesAlive = 0;
     public Transform enemyPrefab;
     public Transform spawnPoint;
 
+    public static int EnemiesAlive = 0;
+
     public float timeBetweenWaves = 5f;
-    //Timer before it spawns the first Wave
+    
     private float countdown = 2f;
 
-    private int waveNumber = 1;
+    private int waveNumber = 0;
+
+    public Wave[] waves;
 
     void Update(){
+
+        
+
         if(countdown <= 0){
             StartCoroutine(SpawnWave());
             countdown = timeBetweenWaves;
@@ -25,19 +31,25 @@ public class WaveSpawner : MonoBehaviour
     }
 
     IEnumerator SpawnWave(){
-        for (int i = 0; i < waveNumber; i++)
+
+        PlayerStats.Rounds++;
+
+        Wave wave = waves[waveNumber];
+
+        for (int i = 0; i < wave.count; i++)
         {
-            SpawnEnemy();
+            SpawnEnemy(wave.enemy);
             //waiting a amount of time before Spawning new Enemy
-            yield return new WaitForSeconds(0.3f);
+            yield return new WaitForSeconds(1f / wave.rate);
         }
 
         waveNumber++;
     }
 
     //Spawnt den Enemie am WaveSpawner
-    void SpawnEnemy(){
-        Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+    void SpawnEnemy(GameObject enemy)
+    {
+        Instantiate(enemy, spawnPoint.position, spawnPoint.rotation);
         EnemiesAlive++;
     }
 
