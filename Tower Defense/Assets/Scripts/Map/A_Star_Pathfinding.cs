@@ -81,7 +81,7 @@ public class A_Star_Pathfinding
             for (int j = 0; j < width; j++)
             {
                 float rand = Random.Range(0f, 1f);
-                if (i == 0 || j == 0 || i == height - 1 || j == width - 1)
+                if((i > 1 && i<height-2 && j > 1 && j < width - 2 && rand < 0.2f) || j == width-1 )
                 {
                     grid[i, j] = new Node(0, 0, 0, i, j, true);
                 }
@@ -97,17 +97,6 @@ public class A_Star_Pathfinding
             for (int j = 0; j < width; j++)
             {
                 grid[k, j].AddNeighbours(grid, k, j);
-            }
-        }
-    }
-
-    void ResetParent()
-    {
-        for (int i = 0; i < height; i++)
-        {
-            for (int j = 0; j < width; j++)
-            {
-                grid[i, j].Parent = null;
             }
         }
     }
@@ -129,6 +118,7 @@ public class A_Star_Pathfinding
             //Check if the current node is the end node
             if (currentNode == endNode)
             {
+                Debug.Log("Path found");
                 //Backtrack to find the path
                 Node temp = currentNode;
                 List<Node> tempPath = new();
