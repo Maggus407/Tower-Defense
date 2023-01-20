@@ -7,7 +7,7 @@
 [Ll]ocal[Cc]ache/
 [Oo]bj/
 [Tt]emp/
-/[Ll]ogs/
+[Ll]ogs/
 [Uu]nityGenerated/
 /[Uu]ser[Ss]ettings/
 # file on crash reports
