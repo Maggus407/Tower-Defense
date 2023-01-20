@@ -19,6 +19,7 @@ public class A_Star_Pathfinding
 
     public List<Node> Start()
     {
+        ResetGrid();
         height = WaveFunction.gridHeight;
         width = WaveFunction.gridWidth;
         grid = new Node[height, width];
@@ -51,7 +52,7 @@ public class A_Star_Pathfinding
             openList.Clear();
             closedList.Clear();
             //Reset the parent of every node
-            ResetParent();
+            ResetGrid();
             //Reset the Grid
             SetGrid(height, width, grid);
             //PrintGrid();
@@ -59,10 +60,20 @@ public class A_Star_Pathfinding
             startNode = grid[endNode.Height, endNode.Width];
             startNode.wall = false;
         }
+        Debug.Log("EndNode: " + endNode.Height + " " + endNode.Width);
         return finalPath;
     }
 
-
+    void ResetGrid()
+    {
+        for (int i = 0; i < height; i++)
+        {
+            for (int j = 0; j < width; j++)
+            {
+                grid[i, j] = null;
+            }
+        }
+    }
     void SetGrid(int height, int width, Node[,] grid)
     {
         for (int i = 0; i < height; i++)

@@ -126,11 +126,11 @@ public class WaveFunction : MonoBehaviour
 
         tempPathTiles = new List<Tile>
         {
-            new Tile(paths[0], new string[] { "GOG", "GGG", "GOG", "GGG" }, 5,2, "TileBump"),  //TileBump
-            new Tile(paths[1], new string[] { "GOG", "GGG", "GGG", "GOG" }, 200,2, "PathCorner"),  //PathCorner
+            new Tile(paths[0], new string[] { "GOG", "GGG", "GOG", "GGG" }, 20,2, "TileBump"),  //TileBump
+            new Tile(paths[1], new string[] { "GOG", "GGG", "GGG", "GOG" }, 20,2, "PathCorner"),  //PathCorner
             new Tile(paths[2], new string[] { "GOG", "GOG", "GOG", "GOG" }, 1,4, "CrossingTile"),  //CrossingTile
             new Tile(paths[3], new string[] { "GBG", "GOG", "GBG", "GOG" }, 1,2, "RiverBridge"),  //RiverBridge
-            new Tile(paths[4], new string[] { "GOG", "GGG", "GOG", "GGG" }, 20,2, "PathStraight"),  //PathStraight 
+            new Tile(paths[4], new string[] { "GOG", "GGG", "GOG", "GGG" }, 40,2, "PathStraight"),  //PathStraight 
             new Tile(paths[5], new string[] { "GOG", "GGG", "GGG", "GGG" }, 1,1, "TileEndRoundSystem"), //TileEndRoundSpawn
             new Tile(paths[6], new string[] { "GOG", "GOG", "GGG", "GOG" }, 1,3, "T-Corner"), //T-Kreuzung
         };
@@ -198,7 +198,7 @@ public class WaveFunction : MonoBehaviour
 
     void Start()
     {
-       List<Node> path = new();
+        List<Node> path = new();
        List<Node> path100 = new();
         path100 = neuerPath;
 
@@ -220,7 +220,7 @@ public class WaveFunction : MonoBehaviour
 
     
  //Counts the amount of edges for every Node
- public Dictionary<(int,int), int> PathGraph(List<Node> EnemiePath)
+    public Dictionary<(int,int), int> PathGraph(List<Node> EnemiePath)
     {
         var edgeCount = new Dictionary<(int,int), List<Node>>();
         var nodeCount = new Dictionary<(int,int), int>();
@@ -264,7 +264,7 @@ public class WaveFunction : MonoBehaviour
 initilize every Grid Cell
 --> Add every Cell to the entropyPerCell List
 */
-void MapSetup(List<Node> path, Dictionary<(int,int),int> dic)
+    void MapSetup(List<Node> path, Dictionary<(int,int),int> dic)
     {
         entropyPerCell = new List<Cell>();
         //Initilize every Path Cell
@@ -523,6 +523,10 @@ void MapSetup(List<Node> path, Dictionary<(int,int),int> dic)
     void ResetMap()
     {
         Debug.Log("Neu Laden...");
+        foreach(Tile t in resetTile)
+        {
+            t.GetSetTile.SetActive(false);
+        }
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
     }
