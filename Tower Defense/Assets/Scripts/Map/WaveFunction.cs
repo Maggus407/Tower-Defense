@@ -14,6 +14,7 @@ public class Tile
     private string[] sockets = new string[4];
     private float probability;
     public int pathsides;
+    public string name;
 
     public float GetSetProbability
     {
@@ -33,12 +34,13 @@ public class Tile
         set { sockets = value; }
     }
 
-    public Tile(GameObject tile, string[] sockets, float probability, int pathsides)
+    public Tile(GameObject tile, string[] sockets, float probability, int pathsides, string name)
     {
         this.tile = tile;
         this.sockets = sockets;
         this.probability = probability;
         this.pathsides = pathsides;
+        this.name = name;
     }
 
 }
@@ -114,23 +116,23 @@ public class WaveFunction : MonoBehaviour
     {
         tempEnviromentTiles = new List<Tile>
         {
-            new Tile(assets[0], new string[] { "GGG", "GGG", "GGG", "GGG" }, 60,0),  //Grass - TileVariant
-            new Tile(assets[1], new string[] { "GGG", "GGG", "GGG", "GGG" }, 10,0),  //BigTree           
-            new Tile(assets[2], new string[] { "GGG", "GGG", "GGG", "GGG" }, 10,0),  //Crystals
-            new Tile(assets[3], new string[] { "GBG", "GGG", "GBG", "GGG" }, 2,0),  //RiverStraight
-            new Tile(assets[4], new string[] { "GBG", "GGG", "GGG", "GBG" }, 2,0),  //RiverCorner
-            new Tile(assets[5], new string[] { "GDG", "GGG", "GBG", "GGG" }, 1,0), //RiverTransition
+            new Tile(assets[0], new string[] { "GGG", "GGG", "GGG", "GGG" }, 60,0, "Grass"),  //Grass - TileVariant
+            new Tile(assets[1], new string[] { "GGG", "GGG", "GGG", "GGG" }, 10,0, "Trees"),  //BigTree           
+            new Tile(assets[2], new string[] { "GGG", "GGG", "GGG", "GGG" }, 10,0, "Crystals"),  //Crystals
+            new Tile(assets[3], new string[] { "GBG", "GGG", "GBG", "GGG" }, 2,0, "RiverStraight"),  //RiverStraight
+            new Tile(assets[4], new string[] { "GBG", "GGG", "GGG", "GBG" }, 2,0, "RiverCorner"),  //RiverCorner
+            new Tile(assets[5], new string[] { "GDG", "GGG", "GBG", "GGG" }, 1,0, "RiverTransition"), //RiverTransition
         };
 
         tempPathTiles = new List<Tile>
         {
-            new Tile(paths[0], new string[] { "GOG", "GGG", "GOG", "GGG" }, 5,2),  //TileBump
-            new Tile(paths[1], new string[] { "GOG", "GGG", "GGG", "GOG" }, 2,2),  //PathCorner
-            new Tile(paths[2], new string[] { "GOG", "GOG", "GOG", "GOG" }, 1,4),  //CrossingTile
-            new Tile(paths[3], new string[] { "GBG", "GOG", "GBG", "GOG" }, 1,2),  //RiverBridge
-            new Tile(paths[4], new string[] { "GOG", "GGG", "GOG", "GGG" }, 20,2),  //PathStraight 
-            new Tile(paths[5], new string[] { "GOG", "GGG", "GGG", "GGG" }, 1,1), //TileEndRoundSpawn
-            new Tile(paths[6], new string[] { "GOG", "GOG", "GGG", "GOG" }, 1,3), //T-Kreuzung
+            new Tile(paths[0], new string[] { "GOG", "GGG", "GOG", "GGG" }, 5,2, "TileBump"),  //TileBump
+            new Tile(paths[1], new string[] { "GOG", "GGG", "GGG", "GOG" }, 200,2, "PathCorner"),  //PathCorner
+            new Tile(paths[2], new string[] { "GOG", "GOG", "GOG", "GOG" }, 1,4, "CrossingTile"),  //CrossingTile
+            new Tile(paths[3], new string[] { "GBG", "GOG", "GBG", "GOG" }, 1,2, "RiverBridge"),  //RiverBridge
+            new Tile(paths[4], new string[] { "GOG", "GGG", "GOG", "GGG" }, 20,2, "PathStraight"),  //PathStraight 
+            new Tile(paths[5], new string[] { "GOG", "GGG", "GGG", "GGG" }, 1,1, "TileEndRoundSystem"), //TileEndRoundSpawn
+            new Tile(paths[6], new string[] { "GOG", "GOG", "GGG", "GOG" }, 1,3, "T-Corner"), //T-Kreuzung
         };
 
         RotateTiles(tempEnviromentTiles, 1); //Rotate all Environment Tiles by 90° 180° 270°
@@ -173,11 +175,11 @@ public class WaveFunction : MonoBehaviour
                 a.SetActive(false);
                 if (tileList == 1)
                 {
-                    allEnvTiles.Add(new Tile(a, copy, tile.GetSetProbability, tile.pathsides));
+                    allEnvTiles.Add(new Tile(a, copy, tile.GetSetProbability, tile.pathsides, tile.name));
                 }
                 if (tileList == 2)
                 {
-                    allPathTiles.Add(new Tile(a, copy, tile.GetSetProbability, tile.pathsides));
+                    allPathTiles.Add(new Tile(a, copy, tile.GetSetProbability, tile.pathsides, tile.name));
                 }
             }
         }
@@ -217,7 +219,7 @@ public class WaveFunction : MonoBehaviour
     }
 
     
-    //Counts the amount of edges for every Node
+ //Counts the amount of edges for every Node
  public Dictionary<(int,int), int> PathGraph(List<Node> EnemiePath)
     {
         var edgeCount = new Dictionary<(int,int), List<Node>>();
@@ -271,7 +273,29 @@ void MapSetup(List<Node> path, Dictionary<(int,int),int> dic)
             List<Tile> copy = new();
             foreach (Tile t in allPathTiles)
             {
-                if (dic[(path[i].Height, path[i].Width)] == t.pathsides){
+                if(i > 0 && i < path.Count - 2)
+                {
+                    //Check abover and under
+                    bool a = (path[i - 1].Height == path[i].Height - 1 && path[i + 1].Height == path[i].Height + 1);
+                    //Check right and left
+                    bool b = (path[i - 1].Width == path[i].Width - 1 && path[i + 1].Width == path[i].Width + 1);
+                    if (dic[(path[i].Height, path[i].Width)] == t.pathsides)
+                    {
+                        if(t.pathsides == 2 && (a || b))
+                        {
+                            if(t.name != "PathCorner")
+                            {
+                                copy.Add(t);
+                            }
+                        }
+                        else
+                        {
+                            copy.Add(t);
+                        }
+                        
+                    }
+                }else if(dic[(path[i].Height, path[i].Width)] == t.pathsides)
+                {
                     copy.Add(t);
                 }
             }
@@ -301,8 +325,8 @@ void MapSetup(List<Node> path, Dictionary<(int,int),int> dic)
                 }
             }
         }
-        int h = path[path.Count - 1].Height;
-        int w = path[path.Count - 1].Width;
+        int h = pathForEnemy[pathForEnemy.Count - 1].Height;
+        int w = pathForEnemy[pathForEnemy.Count - 1].Width;
         Instantiate(schloss, new Vector3(w, 0.2f, h), Quaternion.identity);
         Instantiate(paths[2], new Vector3(w, 0, h), Quaternion.identity);
         grid[h, w].collapsed = true;

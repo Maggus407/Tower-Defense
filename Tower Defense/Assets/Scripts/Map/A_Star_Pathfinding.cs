@@ -31,10 +31,10 @@ public class A_Star_Pathfinding
         for (int i = 0; i < waypoints; i++)
         {
             //Initialize the open and closed list
-
             if (i == waypoints - 1)
             {
-                endNode = grid[3, 19];
+                int rand = Random.Range(0, height - 1);
+                endNode = grid[rand, width - 1];
                 endNode.wall = false;
             }
             else
@@ -119,7 +119,6 @@ public class A_Star_Pathfinding
             if (currentNode == endNode)
             {
                 //Backtrack to find the path
-                Debug.Log("Gefunden");
                 Node temp = currentNode;
                 List<Node> tempPath = new();
                 while (temp != null)
