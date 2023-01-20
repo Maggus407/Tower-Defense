@@ -1,0 +1,475 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'de' Physical Memory: 16250 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+S:\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+S:/Tower-Defense/Tower Defense
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+64888
+Successfully changed project path to: S:/Tower-Defense/Tower Defense
+S:/Tower-Defense/Tower Defense
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 81.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path S:/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path S:/Tower-Defense/Tower Defense/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GT 1030 (ID=0x1d01)
+    Vendor:   NVIDIA
+    VRAM:     1982 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'S:/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'S:/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'S:/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: S:/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002198 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 85.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.618 seconds
+Domain Reload Profiling:
+	ReloadAssembly (618ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (443ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (95ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005737 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Domain Reload Profiling:
+	ReloadAssembly (965ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (756ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (242ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (56.1 KB). Loaded Objects now: 3818.
+Memory consumption went from 115.5 MB to 115.4 MB.
+Total: 2.859100 ms (FindLiveObjects: 0.239500 ms CreateObjectMapping: 0.185800 ms MarkObjects: 2.372800 ms  DeleteObjects: 0.060300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6142.199696 seconds.
+  path: Assets/Materials/BulletImpactmaterial.mat
+  artifactKey: Guid(57b0227149d5f5a4dbc68f0552339327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BulletImpactmaterial.mat using Guid(57b0227149d5f5a4dbc68f0552339327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c792d6900cd6af425d7e3e61eb3c23d7') in 0.125969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.231077 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(7fc3ffefe213ad14d9818b6c6a15bdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(7fc3ffefe213ad14d9818b6c6a15bdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d913805ec189c8071335f2a76b57b9a') in 0.004936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.303872 seconds.
+  path: Assets/Prefabs/Map-Tiles
+  artifactKey: Guid(27a8f64b7e1aa3e4aad0c97c644a3b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Map-Tiles using Guid(27a8f64b7e1aa3e4aad0c97c644a3b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74474bb19462e06a7ac79aa7cb4de801') in 0.004764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.137008 seconds.
+  path: Assets/Sprites/Bullet-Turret 1.psd
+  artifactKey: Guid(14e3c0f1d7dc7e5479c81c4254a25481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullet-Turret 1.psd using Guid(14e3c0f1d7dc7e5479c81c4254a25481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea409e855b303f286f7dd7add74d026') in 0.057203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 220.676713 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack
+  artifactKey: Guid(fe7964bf048258c47942280c6cc8785d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack using Guid(fe7964bf048258c47942280c6cc8785d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e1e5220b368c3349c96a825f35e0db') in 0.007215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074042 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/detail_crystal.fbx
+  artifactKey: Guid(d4972dc1c72dc4347bdbb49d5199c8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/detail_crystal.fbx using Guid(d4972dc1c72dc4347bdbb49d5199c8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b06c2c5b3507cb5f9f3c2eb9c6bd39') in 0.082996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_slope.fbx
+  artifactKey: Guid(98a65f09062ca954e91d5962628cf931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_slope.fbx using Guid(98a65f09062ca954e91d5962628cf931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7101cb7d23787a4962a90e41b90818c') in 0.030429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_dirt.fbx
+  artifactKey: Guid(3f160186cd4b00c408134ce0b0cbffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_dirt.fbx using Guid(3f160186cd4b00c408134ce0b0cbffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c38db1b0f2b0c8f7c6b859d7326f9a7') in 0.020976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_cornerInner.fbx
+  artifactKey: Guid(ef3e0a3b19653dc49825a47a91a458a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_cornerInner.fbx using Guid(ef3e0a3b19653dc49825a47a91a458a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f853f628e718e050f80d58dc1faff27') in 0.028286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/detail_dirtLarge.fbx
+  artifactKey: Guid(d3d7474c2714ff340a34d443aceac017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/detail_dirtLarge.fbx using Guid(d3d7474c2714ff340a34d443aceac017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb13d396948a7c5556342154f2990fe') in 0.021259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_riverFall.fbx
+  artifactKey: Guid(5ff597dfe4594ac47908741f9d62aca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_riverFall.fbx using Guid(5ff597dfe4594ac47908741f9d62aca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1128f8c9bba3946d7f1c5a519f376fd') in 0.019753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/detail_dirt.fbx
+  artifactKey: Guid(6a5865dca7d77ec40a0b209ff38dd7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/detail_dirt.fbx using Guid(6a5865dca7d77ec40a0b209ff38dd7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b25a7d5f7abc6e88ad3711ff27feb7') in 0.022536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/detail_tree.fbx
+  artifactKey: Guid(e919293d717524c4bad9366781c9af53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/detail_tree.fbx using Guid(e919293d717524c4bad9366781c9af53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64475f8fd4ba27038765ff4241a03255') in 0.027343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_riverCorner.fbx
+  artifactKey: Guid(52371ec25aa935d498cfba7b1ff2ca8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_riverCorner.fbx using Guid(52371ec25aa935d498cfba7b1ff2ca8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7c61de2ba390f41edb589c74173b48') in 0.032865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/detail_treeLarge.fbx
+  artifactKey: Guid(638ef756c1137fe45a4271b0f9b77b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/detail_treeLarge.fbx using Guid(638ef756c1137fe45a4271b0f9b77b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772dc06cbb1c030ca96bc0ad3eb3321b') in 0.028462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_end.fbx
+  artifactKey: Guid(83e9fbf4968c8184fa79187d9be6e1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_end.fbx using Guid(83e9fbf4968c8184fa79187d9be6e1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88da7ce8e38b754b7d701908e237845e') in 0.048077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_detail_dirtLarge.fbx
+  artifactKey: Guid(50e2e696a36ebac4f96d540d10bddcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_detail_dirtLarge.fbx using Guid(50e2e696a36ebac4f96d540d10bddcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed10bc218cd023d0723849a91b53a0ab') in 0.034878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_hill.fbx
+  artifactKey: Guid(78db4cfae6623dd4298bd13e82c87f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_hill.fbx using Guid(78db4cfae6623dd4298bd13e82c87f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ff774858ccf75a38e7081e08cbd458') in 0.049249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_split.fbx
+  artifactKey: Guid(a47988c3db712a846bae420dbe565841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_split.fbx using Guid(a47988c3db712a846bae420dbe565841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f19b1a190a49f4b4f061b37f09fc7e') in 0.044532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/detail_rocksLarge.fbx
+  artifactKey: Guid(2cede6b1a8fe3d446a738cb38b3f8c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/detail_rocksLarge.fbx using Guid(2cede6b1a8fe3d446a738cb38b3f8c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163dcdfccdd741b6acdba2690c0b9c4e') in 0.026267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_cornerOuter.fbx
+  artifactKey: Guid(e9f819f3a28d11449a2d2ac0a68eb755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_cornerOuter.fbx using Guid(e9f819f3a28d11449a2d2ac0a68eb755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83790252f39d4d194b8884d3a2e90eab') in 0.031568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_riverBridge.fbx
+  artifactKey: Guid(f5af5d8b1244dd34e8b7ac92a3a2c3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_riverBridge.fbx using Guid(f5af5d8b1244dd34e8b7ac92a3a2c3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37f17a4f78a910840bf67ee61a21aab') in 0.046871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_cornerOuter.fbx
+  artifactKey: Guid(e70d67e11e486144c87a2f1591d55252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_cornerOuter.fbx using Guid(e70d67e11e486144c87a2f1591d55252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86caa95a4ef12aff9ddb8ba0db65393c') in 0.018381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_detail_tree.fbx
+  artifactKey: Guid(041217d9d8b8d9147874bc77d969ba53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_detail_tree.fbx using Guid(041217d9d8b8d9147874bc77d969ba53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22551361f95edf3133654ed2c877d1c3') in 0.043665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_crystal.fbx
+  artifactKey: Guid(9bb4ebc70d16c8a4f9968e0b9999168b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_crystal.fbx using Guid(9bb4ebc70d16c8a4f9968e0b9999168b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f7702bf4112b82e8f683975a85b1f2') in 0.059672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_endSpawn.fbx
+  artifactKey: Guid(34c737962eb947340821a2caa2d890cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_endSpawn.fbx using Guid(34c737962eb947340821a2caa2d890cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29ad67e624b4a692b66baa9fa4f49fb') in 0.024504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_cornerSquare.fbx
+  artifactKey: Guid(244a1174889f00247ad8178922bd7a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_cornerSquare.fbx using Guid(244a1174889f00247ad8178922bd7a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4451728a93f492dc489474a5787e36') in 0.017257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_spawnRound.fbx
+  artifactKey: Guid(6ff32b7bf65d5a641bb9d1f0581a67d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_spawnRound.fbx using Guid(6ff32b7bf65d5a641bb9d1f0581a67d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18208da063773a5de4e74b72114428e1') in 0.053990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_tree.fbx
+  artifactKey: Guid(d94ca7fb56eaa144fa88e174699c0c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_tree.fbx using Guid(d94ca7fb56eaa144fa88e174699c0c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7443d7f82488004586d527ca18802a') in 0.050016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_riverSlope.fbx
+  artifactKey: Guid(6ddf1302e23c6cf4da908adb15d5b42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_riverSlope.fbx using Guid(6ddf1302e23c6cf4da908adb15d5b42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa12a856beeb7d26b8af719182e9754e') in 0.040807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_dirtHigh.fbx
+  artifactKey: Guid(fc2e5b65b3ff49744acd109f76ec279d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_dirtHigh.fbx using Guid(fc2e5b65b3ff49744acd109f76ec279d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a904ae1a7244dd922a01d549eccb6f6a') in 0.024248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_straight.fbx
+  artifactKey: Guid(0339b187e6a9a6b4ba4b6afc839101e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_straight.fbx using Guid(0339b187e6a9a6b4ba4b6afc839101e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fa0edc675711e0f1407b74ee2f41c4') in 0.041049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_detail_treeLarge.fbx
+  artifactKey: Guid(a15f96431bd08884fa1a383a601cea46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_detail_treeLarge.fbx using Guid(a15f96431bd08884fa1a383a601cea46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e1bef9244a4b0e78ba53420ee4a830') in 0.048588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_cornerLarge.fbx
+  artifactKey: Guid(fab6aa305bac67f43883379687bf352a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_cornerLarge.fbx using Guid(fab6aa305bac67f43883379687bf352a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b975f0e4b57e5bba76f2c3561ae0bf45') in 0.027945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_crossing.fbx
+  artifactKey: Guid(ed6fbfca133ddff48911812ad0bc77fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_crossing.fbx using Guid(ed6fbfca133ddff48911812ad0bc77fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8021320a15ac9929234cf5ca8530d8') in 0.020936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_endRoundSpawn.fbx
+  artifactKey: Guid(57927f75170079f40a39d0e9af2e4e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_endRoundSpawn.fbx using Guid(57927f75170079f40a39d0e9af2e4e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b384b3fa549c505e5bd60c1abaa3b950') in 0.022468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_endRound.fbx
+  artifactKey: Guid(95841fea3affbd3499176fec59503f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_endRound.fbx using Guid(95841fea3affbd3499176fec59503f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd9f37ddad67f792e7d4d8741d285a6') in 0.021186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_transition.fbx
+  artifactKey: Guid(f42515af7b184d24292e0c20580ed2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_transition.fbx using Guid(f42515af7b184d24292e0c20580ed2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956a64be835451b1e8dd566840b2280c') in 0.049893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_cornerInner.fbx
+  artifactKey: Guid(ad2b30a81e547d043a3870c78b1d5986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_cornerInner.fbx using Guid(ad2b30a81e547d043a3870c78b1d5986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73986fbc3943cca723bad01f4469b8d7') in 0.029633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_rock.fbx
+  artifactKey: Guid(17d73998436e0e6429396eb19900d614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_rock.fbx using Guid(17d73998436e0e6429396eb19900d614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acaf899959361e59ebc1aaf35636a32') in 0.036953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_bump.fbx
+  artifactKey: Guid(1502ebb4e7d837a47bf11f4926af1514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_bump.fbx using Guid(1502ebb4e7d837a47bf11f4926af1514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8627eff9cf9f70fbe0b2a4b58727682e') in 0.044826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_riverSlopeLarge.fbx
+  artifactKey: Guid(652c01279e300be42b21051071754718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_riverSlopeLarge.fbx using Guid(652c01279e300be42b21051071754718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399ff6d67e73b4097838631005c11090') in 0.020830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_wideSplit.fbx
+  artifactKey: Guid(6dce562f6cb7d404f80c38a930304705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_wideSplit.fbx using Guid(6dce562f6cb7d404f80c38a930304705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48aeddfc4ebd28419b34b21d227b952e') in 0.042494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_end.fbx
+  artifactKey: Guid(621d6583775c8b64faee2dfe7f718857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_end.fbx using Guid(621d6583775c8b64faee2dfe7f718857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454bfef8ac08400ed91c934c7049a573') in 0.020567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_cornerLarge.fbx
+  artifactKey: Guid(a97295ebeb5207f44b5ff0fa2ffa3656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_cornerLarge.fbx using Guid(a97295ebeb5207f44b5ff0fa2ffa3656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812d139ca9901d576de0d6784a54e76d') in 0.040629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.158786 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_riverStraight.fbx
+  artifactKey: Guid(a41c97e328e43bb4b9983e3b4931afe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_riverStraight.fbx using Guid(a41c97e328e43bb4b9983e3b4931afe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7710a57c5f716713cb154e4b1fa4618c') in 0.021073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_slope.fbx
+  artifactKey: Guid(c9b7ab04a828ece4289505596cb409c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_slope.fbx using Guid(c9b7ab04a828ece4289505596cb409c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f094c29a9886a386d9a37f985ea5c8f2') in 0.016983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_treeQuad.fbx
+  artifactKey: Guid(006e5a7792c99424ca2ed824e6f0612b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_treeQuad.fbx using Guid(006e5a7792c99424ca2ed824e6f0612b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8992dff2ab06052c08ebb7084bb2d61') in 0.059146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_treeDouble.fbx
+  artifactKey: Guid(f7408b3d14525644fb2efaa428b7cda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_treeDouble.fbx using Guid(f7408b3d14525644fb2efaa428b7cda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7275459846b93cec215b6bdf2b24dfdf') in 0.043920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_wideCorner.fbx
+  artifactKey: Guid(f7c4784b37bed7e42baa5c9fd67ba0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_wideCorner.fbx using Guid(f7c4784b37bed7e42baa5c9fd67ba0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815470ea1905e756fa216f2c5a58c769') in 0.021726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_straight.fbx
+  artifactKey: Guid(1169e3673e52a594881288e6602abdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_straight.fbx using Guid(1169e3673e52a594881288e6602abdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae10f7caa9c440bb1e99cfa3bee6d1d8') in 0.035902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_spawnRound.fbx
+  artifactKey: Guid(d49975c6f23f76e42b53c3f639725cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_spawnRound.fbx using Guid(d49975c6f23f76e42b53c3f639725cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2ff3232d6c1171f1c8fe5e400e06e8') in 0.042671 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

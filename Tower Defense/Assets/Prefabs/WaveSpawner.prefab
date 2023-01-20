@@ -49,6 +49,22 @@ MonoBehaviour:
   enemyPrefab: {fileID: 6265673823059658916, guid: b543ca457aff2324b83e3c9dccd7fbc9, type: 3}
   spawnPoint: {fileID: 7004076501752898037}
   timeBetweenWaves: 5
+  waves:
+  - enemy: {fileID: 6265673823059658904, guid: b543ca457aff2324b83e3c9dccd7fbc9, type: 3}
+    count: 3
+    rate: 1
+  - enemy: {fileID: 6265673823059658904, guid: b543ca457aff2324b83e3c9dccd7fbc9, type: 3}
+    count: 5
+    rate: 3
+  - enemy: {fileID: 6265673823059658904, guid: 6157a2d2c4e5b4e4ba48a70308ee5ccd, type: 3}
+    count: 1
+    rate: 1
+  - enemy: {fileID: 6265673823059658904, guid: 5bc79df6f71c577499c68340f9ba470f, type: 3}
+    count: 5
+    rate: 5
+  - enemy: {fileID: 0}
+    count: 0
+    rate: 0
 --- !u!114 &5969473679148179096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,6 +78,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startlives: 1
+  startMoney: 100
 --- !u!114 &8617579805559347648
 MonoBehaviour:
   m_ObjectHideFlags: 0

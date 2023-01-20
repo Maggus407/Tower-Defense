@@ -496,7 +496,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 886846059}
-  - component: {fileID: 886846060}
+  - component: {fileID: 886846061}
   m_Layer: 0
   m_Name: MapGenerator
   m_TagString: Untagged
@@ -519,7 +519,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &886846060
+--- !u!114 &886846061
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -528,22 +528,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 886846058}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a44a4fdfa7c2a3c438095b4e5b516fce, type: 3}
+  m_Script: {fileID: 11500000, guid: c346fce5f2237e341b67f28af1730f0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minPathLength: 65
-  firstTilefromSpawn: {fileID: 2301211776600634475, guid: 8468a73b8dd617440829b80c6c50f1e6, type: 3}
-  pathTileStraight: {fileID: 402272631722048278, guid: 667dc5ee97ab130489543f7796159381, type: 3}
-  pathTileCorner: {fileID: 3772516793252621360, guid: 52dd2708bc565d640b3d90e955d0e4f2, type: 3}
-  buildTile: {fileID: 900215867413458739, guid: 7a8bae1f8e567a847be1e59b6b9cf182, type: 3}
-  Base: {fileID: 3061561639941530202, guid: 94f36a28a9cd89f47a92548528345306, type: 3}
-  waypoint: {fileID: 1980818555860597868, guid: 0fc6521f6fca7144184888019043c189, type: 3}
+  assets:
+  - {fileID: 7847078016230355020, guid: c04d81dfe386a3d41aab61e44974eeb1, type: 3}
+  - {fileID: 2741128027808297607, guid: 024b5e4ef08fcaa4b9aa268005ed0480, type: 3}
+  - {fileID: 2287721706956648196, guid: a07177d269fc144438b2edcbc23faadb, type: 3}
+  - {fileID: 7994821186428163145, guid: 003b63723c0569c4f8653bb742527046, type: 3}
+  - {fileID: 2760515391504887123, guid: 4fb5f0fff79950246a62eacecd3349ba, type: 3}
+  - {fileID: 1698554677123946424, guid: e0f852bc72885794999c69b979985bf1, type: 3}
+  paths:
+  - {fileID: 5849973864557665848, guid: 6bde513194a3a0b478bd41f3cf291913, type: 3}
+  - {fileID: 2777806843828361675, guid: 26a65d1d118c46c4a985ebcf02afc9cc, type: 3}
+  - {fileID: 7643887664422678858, guid: 4766672d2caba98428e2ae08150e61d4, type: 3}
+  - {fileID: 4899948061832177466, guid: 8cb9b9a4b612a114ba094e42317168e5, type: 3}
+  - {fileID: 5736374877002269702, guid: fd65bc293d87df646ad3fb77548c2438, type: 3}
+  - {fileID: 5474143518198087372, guid: 840ca9da381f2d446bcae2012cfa3dce, type: 3}
+  - {fileID: 3984395575374777771, guid: 8ddc004a5011b4f478a601c5f59390f8, type: 3}
+  schloss: {fileID: 2897979206391474590, guid: 6a92021616085374fb25640c89596bc9, type: 3}
   waveSpawner: {fileID: 7004076501752898038, guid: 53d02181f9b1b6642bf2601b2b30cd97, type: 3}
-  Kiste: {fileID: 1362255755749402, guid: 1b5d1a6deebd81e4bba2448d18378844, type: 3}
-  Tree:
-  - {fileID: 1755297518104830, guid: bb8b831afcc06c64f9df984b2ccb8642, type: 3}
-  - {fileID: 1852941587909970, guid: 45fe3ec28eac2064d985117cf812ef9d, type: 3}
-  grass: {fileID: 1685531937540468, guid: 6c919ec1c1e88a94c95afc28b198b9f8, type: 3}
+  wayPoint: {fileID: 1980818555860597868, guid: 0fc6521f6fca7144184888019043c189, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0

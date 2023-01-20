@@ -5,41 +5,29 @@ using UnityEngine;
 public class EnemyPathFinder : MonoBehaviour
 {
 
-     [Header("Enemie-Speed")]
-   public float speed = 2f;
-
-    public int health = 100;
-
-   private Transform target;
+   private Vector3 target;
    private int wavepointIndex = 0;
-   List<GameObject> pathfinder = Gridmanager.enemiePath;
+   List<Node> pathfinder;
+    private Enemy enemy;
+    private WaveFunction waveFunction;
+    
+    void Start(){       
+        pathfinder = WaveFunction.pathForEnemy;
+        enemy = GetComponent<Enemy>();
 
-   void Start(){
-        target = pathfinder[wavepointIndex].transform;
+        target = new Vector3(pathfinder[wavepointIndex].Width, 0.6f, pathfinder[wavepointIndex].Height);
         //Ignoriert alle Collisions --> Damit Enemies sich auch überholen können
         Physics.IgnoreLayerCollision(0, 6, true);
    }
 
-    public void TakeDamage (int amount)
-    {
-        health -= amount;
 
-        if(health <= 0)
-        {
-            Die();
-        }
-    }
-
-    void Die()
-    {
-        Destroy(gameObject);
-    }
 
    void Update(){
-        Vector3 dir = target.position - transform.position;
-        transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
+        Vector3 dir = target - transform.position;
+        Debug.Log(dir);
+        transform.Translate(dir.normalized * enemy.speed * Time.deltaTime, Space.World);
 
-        if(Vector3.Distance(transform.position, target.position) <= 0.1f){
+        if(Vector3.Distance(transform.position, target) <= 0.1f){
             GetNextWaypoint();
         }
    }
@@ -51,7 +39,7 @@ public class EnemyPathFinder : MonoBehaviour
             return;
         }
         wavepointIndex++;
-        target = pathfinder[wavepointIndex].transform;
+        target = new Vector3(pathfinder[wavepointIndex].Width, 0.6f, pathfinder[wavepointIndex].Height);
    }
 
     void EndPath()
@@ -60,7 +48,7 @@ public class EnemyPathFinder : MonoBehaviour
         {
             PlayerStats.Lives--;
         }
-        
+        WaveSpawner.EnemiesAlive--;
         Destroy(gameObject);
     }
 
