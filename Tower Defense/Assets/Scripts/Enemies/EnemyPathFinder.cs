@@ -21,10 +21,8 @@ public class EnemyPathFinder : MonoBehaviour
    }
 
 
-
    void Update(){
         Vector3 dir = target - transform.position;
-        Debug.Log(dir);
         transform.Translate(dir.normalized * enemy.speed * Time.deltaTime, Space.World);
 
         if(Vector3.Distance(transform.position, target) <= 0.1f){

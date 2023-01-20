@@ -15,7 +15,7 @@ S:/Tower-Defense/Tower Defense
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64888
+56447
 Successfully changed project path to: S:/Tower-Defense/Tower Defense
 S:/Tower-Defense/Tower Defense
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ S:/Tower-Defense/Tower Defense
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 82.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 70.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path S:/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -63,75 +63,75 @@ Initialize mono
 Mono path[0] = 'S:/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'S:/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'S:/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: S:/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002293 seconds.
+Registered in 0.002369 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 85.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 79.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.654 seconds
+- Completed reload, in  0.641 seconds
 Domain Reload Profiling:
-	ReloadAssembly (655ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (642ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (469ms)
-			LoadAssemblies (87ms)
+		EndReloadAssembly (462ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (108ms)
+			SetupTypeCache (100ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (278ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (286ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
+				RefreshPlugins (79ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (138ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005569 seconds.
+Registered in 0.005943 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.077 seconds
+- Completed reload, in  1.023 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1078ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (1024ms)
+		BeginReloadAssembly (118ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (832ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (805ms)
 			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
+			SetupTypeCache (255ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (372ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (377ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (255ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -140,12 +140,80 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (56.4 KB). Loaded Objects now: 3817.
+Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (56.0 KB). Loaded Objects now: 3819.
+Memory consumption went from 115.7 MB to 115.6 MB.
+Total: 3.242000 ms (FindLiveObjects: 0.231500 ms CreateObjectMapping: 0.153500 ms MarkObjects: 2.795500 ms  DeleteObjects: 0.060800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23079.880501 seconds.
+  path: Assets/Scripts/Settings
+  artifactKey: Guid(812553d6ce261ee4ebc971124c3362f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Settings using Guid(812553d6ce261ee4ebc971124c3362f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e590f8518bf5d8dca9def97a890d755b') in 0.009288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.596383 seconds.
+  path: Assets/Scripts/Settings/TimeSpeed.cs
+  artifactKey: Guid(5873ba5962baf3e4094783343e4375eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Settings/TimeSpeed.cs using Guid(5873ba5962baf3e4094783343e4375eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61adf7741c7693a5b24ba4a9a8e0fc96') in 0.038499 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007809 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.047 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1047ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (803ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (318ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3353 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3823.
 Memory consumption went from 115.4 MB to 115.4 MB.
-Total: 2.986600 ms (FindLiveObjects: 0.274000 ms CreateObjectMapping: 0.211900 ms MarkObjects: 2.429600 ms  DeleteObjects: 0.070100 ms)
+Total: 2.604000 ms (FindLiveObjects: 0.225400 ms CreateObjectMapping: 0.135400 ms MarkObjects: 2.221600 ms  DeleteObjects: 0.020900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,48 +228,104 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008475 seconds.
+Registered in 0.006432 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.052 seconds
+- Completed reload, in  0.976 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1053ms)
-		BeginReloadAssembly (156ms)
+	ReloadAssembly (977ms)
+		BeginReloadAssembly (153ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (810ms)
-			LoadAssemblies (103ms)
+		EndReloadAssembly (736ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (293ms)
+			SetupTypeCache (255ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (344ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (322ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (217ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3353 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3826.
+Memory consumption went from 115.4 MB to 115.4 MB.
+Total: 3.793800 ms (FindLiveObjects: 0.229400 ms CreateObjectMapping: 0.145500 ms MarkObjects: 3.392400 ms  DeleteObjects: 0.025600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005448 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Domain Reload Profiling:
+	ReloadAssembly (945ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (711ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (220ms)
 				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3351 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3820.
-Memory consumption went from 115.1 MB to 115.1 MB.
-Total: 3.169200 ms (FindLiveObjects: 0.256500 ms CreateObjectMapping: 0.177900 ms MarkObjects: 2.705000 ms  DeleteObjects: 0.028900 ms)
+Unloading 3353 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3829.
+Memory consumption went from 115.4 MB to 115.4 MB.
+Total: 3.836500 ms (FindLiveObjects: 0.329000 ms CreateObjectMapping: 0.192800 ms MarkObjects: 3.286900 ms  DeleteObjects: 0.027000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -215,509 +339,635 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5812.035543 seconds.
-  path: Assets/FBX/GunTower
-  artifactKey: Guid(1f7953f8757573b488fa40872fd6733b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/GunTower using Guid(1f7953f8757573b488fa40872fd6733b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd583d4229e21f7cd27272fed41f88206') in 0.012281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.040562 seconds.
-  path: Assets/FBX/GunTower/SchussTowerLVL1.fbx
-  artifactKey: Guid(8bfc825f83a8709499f027d6bfc1d0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/GunTower/SchussTowerLVL1.fbx using Guid(8bfc825f83a8709499f027d6bfc1d0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d4421f1a832d0cc8715f99b7f90ac6') in 0.912344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.964395 seconds.
-  path: Assets/FBX/IceTower/FINAL-Ice-Tower2.fbx
-  artifactKey: Guid(0191ea105cbfbe742be469d193734f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/IceTower/FINAL-Ice-Tower2.fbx using Guid(0191ea105cbfbe742be469d193734f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efd136ec9c5492661f0b41e221a14f2') in 0.729906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.183279 seconds.
-  path: Assets/Scripts/Tower
-  artifactKey: Guid(04f4758d25387b9439b9e439f74681ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Tower using Guid(04f4758d25387b9439b9e439f74681ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1081c2a681f38a04a3b4a516c665bde7') in 0.007044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 176.221172 seconds.
-  path: Assets/Scripts/Map/WaveSpawner.cs
-  artifactKey: Guid(d913286e013ff6443819ce7b6e3426c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Map/WaveSpawner.cs using Guid(d913286e013ff6443819ce7b6e3426c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494fff66fa9fbf956297c198b0c3459f') in 0.017257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.709839 seconds.
-  path: Assets/Scripts/Enemies/EnemyPathFinder.cs
-  artifactKey: Guid(24f68f2a03ca8a64888220b5925a2c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemies/EnemyPathFinder.cs using Guid(24f68f2a03ca8a64888220b5925a2c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4fe1c0c748130553c838e177a15fae') in 0.005097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 65.845448 seconds.
-  path: Assets/Scripts/Enemies/Wave.cs
-  artifactKey: Guid(8771a8863a57dc1438c5d47cd0a9feb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemies/Wave.cs using Guid(8771a8863a57dc1438c5d47cd0a9feb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573f73440b40e4d30ae57bd6c80d6b34') in 0.005280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.154085 seconds.
-  path: Assets/Scripts/Enemies/Enemy.cs
-  artifactKey: Guid(56d1856a865af16469f5f1a3c91adf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemies/Enemy.cs using Guid(56d1856a865af16469f5f1a3c91adf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b075ea4eb4ea98ce7b9d2d9d5a93ee') in 0.004924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 50.037449 seconds.
-  path: Assets/Prefabs/Bullet.prefab
-  artifactKey: Guid(48f215f6fe82b1147b063c431b69e062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet.prefab using Guid(48f215f6fe82b1147b063c431b69e062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e90b76986ea5450ba34fade36cc89e') in 0.030970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prefabs/SchussTowerLVL1 Variant.prefab
-  artifactKey: Guid(b92d2f5b3a1ff3b4b8a8013b71f79a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SchussTowerLVL1 Variant.prefab using Guid(b92d2f5b3a1ff3b4b8a8013b71f79a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3d63f67151a5c37bcf4ed55c98f5bf') in 0.047359 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prefabs/SchussTowerLVL1 Variant 1.prefab
-  artifactKey: Guid(21700ac5a6e1bdb4a979674c9260ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SchussTowerLVL1 Variant 1.prefab using Guid(21700ac5a6e1bdb4a979674c9260ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d59c34ea32b414e9fa1f33358cfa0c') in 0.049290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prefabs/Turret.prefab
-  artifactKey: Guid(0bd912ddab087fb4d989967d067d4df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Turret.prefab using Guid(0bd912ddab087fb4d989967d067d4df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5dc2fafdf3592425bbf749da7dd2e1') in 0.104673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Prefabs/Waypoint.prefab
-  artifactKey: Guid(0fc6521f6fca7144184888019043c189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waypoint.prefab using Guid(0fc6521f6fca7144184888019043c189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ca5b8b239e003435f6140963e68430') in 0.008615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/FINAL-Ice-Tower2 Variant.prefab
-  artifactKey: Guid(842e4fb7d97adde4ba9249a0c146ca90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FINAL-Ice-Tower2 Variant.prefab using Guid(842e4fb7d97adde4ba9249a0c146ca90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7501477847e9e016d2f086aed3740b6') in 0.028169 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prefabs/WaveSpawner.prefab
-  artifactKey: Guid(53d02181f9b1b6642bf2601b2b30cd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/WaveSpawner.prefab using Guid(53d02181f9b1b6642bf2601b2b30cd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2d3a564c874b4e3c6ff570f0584bfc') in 0.008093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.954453 seconds.
-  path: Assets/Materials/BulletMaterial.mat
-  artifactKey: Guid(4736fb8999cdb084fabf269d69920e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/BulletMaterial.mat using Guid(4736fb8999cdb084fabf269d69920e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818e7dea1a78761fce734547392ed60b') in 0.037294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 236.602970 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/detail_crystalLarge.fbx
-  artifactKey: Guid(2b95ade3773900944b1f674dcefe5f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/detail_crystalLarge.fbx using Guid(2b95ade3773900944b1f674dcefe5f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7918df8c9ba8115d87075a75873dd6a4') in 0.053306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_crystal.fbx
-  artifactKey: Guid(830cff46a3e01434986b9cf3905ad63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_crystal.fbx using Guid(830cff46a3e01434986b9cf3905ad63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3879d42bf88f91d3a03036cfeca15c') in 0.078021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_wideStraight.fbx
-  artifactKey: Guid(09a60254202973641b32395262ea5d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_wideStraight.fbx using Guid(09a60254202973641b32395262ea5d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52b1cead2b21944606c681d6dacee54') in 0.041067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_cornerSquare.fbx
-  artifactKey: Guid(6a750fbe2a7e2b34caa20d47829069c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_cornerSquare.fbx using Guid(6a750fbe2a7e2b34caa20d47829069c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1908c01c5b00ba0b7bd728793c4601a9') in 0.048199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile.fbx
-  artifactKey: Guid(7664a6d95d4562746b0467d2df889cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile.fbx using Guid(7664a6d95d4562746b0467d2df889cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0c8475581580ec861340563252e05b') in 0.024953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_cornerRound.fbx
-  artifactKey: Guid(b39576a36cbb3fb4ea4b7094b25c2f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_cornerRound.fbx using Guid(b39576a36cbb3fb4ea4b7094b25c2f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff72909c3d2f2e14e136f18a168ce02') in 0.064666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_endRoundSpawn.fbx
-  artifactKey: Guid(f040016f0fa2759488c41d66f3728e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_endRoundSpawn.fbx using Guid(f040016f0fa2759488c41d66f3728e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3282a441aac5449849bb6e28b8bdf9f') in 0.063022 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_wideTransition.fbx
-  artifactKey: Guid(241b992e25353424ebbff0e061f16e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_wideTransition.fbx using Guid(241b992e25353424ebbff0e061f16e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c7c67503dcd55dbdaab3cdcb078ea0') in 0.051796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_riverSlopeLarge.fbx
-  artifactKey: Guid(1eeaaf4ef9663974caf7b259f517413a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_riverSlopeLarge.fbx using Guid(1eeaaf4ef9663974caf7b259f517413a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327453c14560a9294721e9e24f9265e8') in 0.041006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_hill.fbx
-  artifactKey: Guid(9bce2c892c578124788a56877ecc9fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_hill.fbx using Guid(9bce2c892c578124788a56877ecc9fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b779dc43467db0d29aa06b37d5d8f864') in 0.034054 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_bump.fbx
-  artifactKey: Guid(c46f62371bfeb9d43ae1a5344450e9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_bump.fbx using Guid(c46f62371bfeb9d43ae1a5344450e9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea512e3dccca82c79edaf1c08d1a91cb') in 0.022146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_treeDouble.fbx
-  artifactKey: Guid(248d70591f6e876479ae095f693079da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_treeDouble.fbx using Guid(248d70591f6e876479ae095f693079da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb580aa722ceaa6b840fd16bad42288') in 0.062268 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_riverFall.fbx
-  artifactKey: Guid(b9d447fe9f3c4694d92aa077419c96c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_riverFall.fbx using Guid(b9d447fe9f3c4694d92aa077419c96c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fe98ff7a481ce790a06793e25c87c1') in 0.034659 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_straightHillLarge.fbx
-  artifactKey: Guid(a9b74a27d8f3f8441b0e66deeb0b7185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_straightHillLarge.fbx using Guid(a9b74a27d8f3f8441b0e66deeb0b7185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058fedebc74d9230df30660584718389') in 0.039005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_riverStraight.fbx
-  artifactKey: Guid(a3f094f0f98cc174aac75f9c035146ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_riverStraight.fbx using Guid(a3f094f0f98cc174aac75f9c035146ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cff11c4061f20b0912ccb41e2413b6') in 0.042942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_endSpawn.fbx
-  artifactKey: Guid(7ca355bb3d0550f479283f8418534bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_endSpawn.fbx using Guid(7ca355bb3d0550f479283f8418534bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6becc79b673519f5c5577a13a3682eb') in 0.053575 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_straightHill.fbx
-  artifactKey: Guid(7ce90632b09010441b1862da1d80886d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_straightHill.fbx using Guid(7ce90632b09010441b1862da1d80886d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5accd3b46a9490e176017c39382018f') in 0.040883 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_endRound.fbx
-  artifactKey: Guid(1bbe5bc220c73584c96e879f7b752c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_endRound.fbx using Guid(1bbe5bc220c73584c96e879f7b752c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34645ddb670222aae96d66ac79dc9839') in 0.039108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_cornerRound.fbx
-  artifactKey: Guid(ed24293663b8dca43b274dc77a5586e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_cornerRound.fbx using Guid(ed24293663b8dca43b274dc77a5586e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae6b43d68773388e08c2783c6c7b973') in 0.018831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_woodStructure_high.fbx
-  artifactKey: Guid(1e5f3b3c40fc3244da5d78169fa8fdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_woodStructure_high.fbx using Guid(1e5f3b3c40fc3244da5d78169fa8fdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ff0b718b292161f386da81a195b175') in 0.038451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_detail_rocks.fbx
-  artifactKey: Guid(caf0abd42198a504e88ecab925d21fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_detail_rocks.fbx using Guid(caf0abd42198a504e88ecab925d21fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b956d5fed09222e75355777f389c222c') in 0.030186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_spawn.fbx
-  artifactKey: Guid(f5de74d872a4cc24fbc7fe8ce897506f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_spawn.fbx using Guid(f5de74d872a4cc24fbc7fe8ce897506f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1a9b0b7870f5feb293dbcc92e7db14') in 0.052689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_detail_dirt.fbx
-  artifactKey: Guid(bc18d8318c3a5334186385c7fd63d490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_detail_dirt.fbx using Guid(bc18d8318c3a5334186385c7fd63d490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e83df25967701b6d4a3bf2bb54ba67') in 0.034619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_riverTransition.fbx
-  artifactKey: Guid(08e4891c0d5e276488bbb4df3883ac0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_riverTransition.fbx using Guid(08e4891c0d5e276488bbb4df3883ac0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a35e2a421d29646c3111c51ea242441') in 0.037641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_woodStructure.fbx
-  artifactKey: Guid(f7d20655ec9406a48941018293395452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_woodStructure.fbx using Guid(f7d20655ec9406a48941018293395452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb039533696699c0ad45b34a33c810ca') in 0.041792 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/detail_rocks.fbx
-  artifactKey: Guid(1dcf0ded260851144848208a647f16fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/detail_rocks.fbx using Guid(1dcf0ded260851144848208a647f16fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18b1fd3cbe4b9c3188314610d2f0bb2') in 0.018303 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_crossing.fbx
-  artifactKey: Guid(8afe1e5af1000eb4fb16d38f0e22e7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_crossing.fbx using Guid(8afe1e5af1000eb4fb16d38f0e22e7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec625f88165a4967cf2171a2eaac00a') in 0.042660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_detail_rocksLarge.fbx
-  artifactKey: Guid(a31deb04e0872064da2728451b8f6986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_detail_rocksLarge.fbx using Guid(a31deb04e0872064da2728451b8f6986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488132c25b85a21780e7419979c0f885') in 0.044911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_treeQuad.fbx
-  artifactKey: Guid(63fd9344c773e6b4a8aeb3080d7c3f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_treeQuad.fbx using Guid(63fd9344c773e6b4a8aeb3080d7c3f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d187544cf2dd645678d5d2dedd801b') in 0.099231 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile.fbx
-  artifactKey: Guid(a1768bc0769f8364baa97f18cfdc0120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile.fbx using Guid(a1768bc0769f8364baa97f18cfdc0120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004fe920cef121d5be1abb419d6e94d8') in 0.031731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_riverBridge.fbx
-  artifactKey: Guid(afecdd62962d2004f8b3ac69859c7f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_riverBridge.fbx using Guid(afecdd62962d2004f8b3ac69859c7f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab25e38d5b5ab996fde4cfcf07e1c668') in 0.018184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_wideCorner.fbx
-  artifactKey: Guid(450f9422076fea64eb008f69fdd770b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_wideCorner.fbx using Guid(450f9422076fea64eb008f69fdd770b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3f28dcb261b63d43c3cf01638dfc8f') in 0.047273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_riverCorner.fbx
-  artifactKey: Guid(0b800595b4704054886dc077cc653c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/snow_tile_riverCorner.fbx using Guid(0b800595b4704054886dc077cc653c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180634f8a057269de34b994fe7ecf92b') in 0.030078 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_riverSlope.fbx
-  artifactKey: Guid(32bd20733ecf4dd46b8a4199c7ccfba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_riverSlope.fbx using Guid(32bd20733ecf4dd46b8a4199c7ccfba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c32d69ec08248f9b77680abd93e4413') in 0.021184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.143492 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_riverTransition.fbx
-  artifactKey: Guid(0490f7ec5b003ae488b73247c844b903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_riverTransition.fbx using Guid(0490f7ec5b003ae488b73247c844b903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4de4a3d378c0f783f2ac2d5f216ac7') in 0.020343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_straightHill.fbx
-  artifactKey: Guid(9a9a58446aeabdf4da7168b5a48a090c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_straightHill.fbx using Guid(9a9a58446aeabdf4da7168b5a48a090c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b239766c4ab4311161c931297ec929') in 0.033713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_rock.fbx
-  artifactKey: Guid(a9df28ebc4d60ef4bac0b1a235ca6a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_rock.fbx using Guid(a9df28ebc4d60ef4bac0b1a235ca6a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b80faa36c6e5b07b4f9c551c3f8499') in 0.026859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_split.fbx
-  artifactKey: Guid(e50384c0af3122e48b08b661fc8472c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_split.fbx using Guid(e50384c0af3122e48b08b661fc8472c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5d7f042da3c36566accf5d73925e5b') in 0.041328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_tree.fbx
-  artifactKey: Guid(f73c1cd69e673804395473fbfdcfce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_tree.fbx using Guid(f73c1cd69e673804395473fbfdcfce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2dddf0b990344884f8e2059314ab33e') in 0.030106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_straightHillLarge.fbx
-  artifactKey: Guid(982eca634aca65541baac38ba570cd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_straightHillLarge.fbx using Guid(982eca634aca65541baac38ba570cd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3c3517c42d10f24276ed5d739ab17c') in 0.038100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_spawn.fbx
-  artifactKey: Guid(4e38b3357544cb143a0eb9773364f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_spawn.fbx using Guid(4e38b3357544cb143a0eb9773364f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40febc6054123d597bd9ae6c23a46d7a') in 0.043524 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_transition.fbx
-  artifactKey: Guid(638fa336ecfe51a4791c109935fa41cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_transition.fbx using Guid(638fa336ecfe51a4791c109935fa41cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c614ba4e463dca0f242c3076c519fde') in 0.032902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 65.357592 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_wideSplit.fbx
-  artifactKey: Guid(5a8c20fd5364a26488dff37aa7331ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_wideSplit.fbx using Guid(5a8c20fd5364a26488dff37aa7331ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd80cfd088c6f5ab111d85e194790d5') in 0.026192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_crystals.fbx
-  artifactKey: Guid(3038b665bc7c9a242a13efba08b1e825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_crystals.fbx using Guid(3038b665bc7c9a242a13efba08b1e825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633adfb08f0d172b65932b5525823de4') in 0.102257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_middleB.fbx
-  artifactKey: Guid(ee4b967e0af5b6644a8cbc4f5c6f5ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_middleB.fbx using Guid(ee4b967e0af5b6644a8cbc4f5c6f5ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb7c91fe3fb445ad9c115df229971b2') in 0.031239 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_base.fbx
-  artifactKey: Guid(baa97a0516c0d3644bcd37531b2a85f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_base.fbx using Guid(baa97a0516c0d3644bcd37531b2a85f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4386d2c2c46a1380cf3fe2a9d145b9') in 0.044822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_bottomB.fbx
-  artifactKey: Guid(4c90a8b0466ec3043bc7799eab037b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_bottomB.fbx using Guid(4c90a8b0466ec3043bc7799eab037b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a54df3b5cb2b1a7a19e6851911b5943') in 0.033599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_wideTransition.fbx
-  artifactKey: Guid(800f0de68932a1b46a56bcb364e5a44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/tile_wideTransition.fbx using Guid(800f0de68932a1b46a56bcb364e5a44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f69658f8ca20a5fe4112d9fb1191b3') in 0.021650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_bottomC.fbx
-  artifactKey: Guid(61b18b860cf65b14a9a126d7bfd77e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_bottomC.fbx using Guid(61b18b860cf65b14a9a126d7bfd77e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c68d5b2a889b8e7ab8e1cfd711cf7f') in 0.047789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_roofB.fbx
-  artifactKey: Guid(35afa01bd9ab9074c9364cbbfc4b5e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_roofB.fbx using Guid(35afa01bd9ab9074c9364cbbfc4b5e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2efea20bed642ae2637872211dbd62') in 0.041645 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_bottomA.fbx
-  artifactKey: Guid(9d9136b0abe8db640b8afdb849f2a80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_bottomA.fbx using Guid(9d9136b0abe8db640b8afdb849f2a80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a2f5f2c71e93ec4504e0051d38359c') in 0.035225 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.510225 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_sampleB.fbx
-  artifactKey: Guid(69e38d8b524da634ead688de77aca966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_sampleB.fbx using Guid(69e38d8b524da634ead688de77aca966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c2c8a4d174cb4edb8f784537bcaac8') in 0.033796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_middleA.fbx
-  artifactKey: Guid(1cc1c7d5dc463c2419bc047494be3da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_middleA.fbx using Guid(1cc1c7d5dc463c2419bc047494be3da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa94a1383953e8e3c148cfa92a5c797') in 0.029696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_middleC.fbx
-  artifactKey: Guid(3da013d50be35504ca929d2846173ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_middleC.fbx using Guid(3da013d50be35504ca929d2846173ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02409f8629c87a58c065bda2e73a8910') in 0.035553 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_sampleD.fbx
-  artifactKey: Guid(666bff97260227d46a51df7c8c312f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_sampleD.fbx using Guid(666bff97260227d46a51df7c8c312f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a30acb8efc1a0cd74497bcfff3195f') in 0.043554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_bottomA.fbx
-  artifactKey: Guid(17e50193ab9cebc42853e6af262d5d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_bottomA.fbx using Guid(17e50193ab9cebc42853e6af262d5d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e159d471e2ba4234f7767cda57f0a08') in 0.026746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_bottomB.fbx
-  artifactKey: Guid(9ed524ee4f8d7564a809c19cc4f79c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_bottomB.fbx using Guid(9ed524ee4f8d7564a809c19cc4f79c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efa68d8476cab0b421ac5ea7841ee57') in 0.032215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_middleB.fbx
-  artifactKey: Guid(e142283aef01cab4ba351f4cb49a4c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_middleB.fbx using Guid(e142283aef01cab4ba351f4cb49a4c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ade27a8e48522356439f3c6bcd379b5') in 0.031637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_topB.fbx
-  artifactKey: Guid(012fa763f0c985c48ba7a46308bfdea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerRound_topB.fbx using Guid(012fa763f0c985c48ba7a46308bfdea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402fb3dd2cdb9ae0e5cfb8285d57ee04') in 0.030584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.429810 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_roofB.fbx
-  artifactKey: Guid(d20651227fbc63445afa1770bf04963f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_roofB.fbx using Guid(d20651227fbc63445afa1770bf04963f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0d3fd4a419b49c5acc637bb73604e3') in 0.036527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_topC.fbx
-  artifactKey: Guid(e5f0d2605b2e7bc498d38c3132eb2089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_topC.fbx using Guid(e5f0d2605b2e7bc498d38c3132eb2089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bec99452f37ed1f2e7f683fd73b0d4') in 0.027962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_topB.fbx
-  artifactKey: Guid(c93a07bb58ddb724083069f9edac39fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_topB.fbx using Guid(c93a07bb58ddb724083069f9edac39fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4806a66513edfc82bde47efe24c8fd') in 0.036394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_sampleD.fbx
-  artifactKey: Guid(ec275958adb9100489745cf860a3dc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_sampleD.fbx using Guid(ec275958adb9100489745cf860a3dc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d592db494e109ef357dfd75881e1094') in 0.031455 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_sampleF.fbx
-  artifactKey: Guid(bdd45128270bc2f4bb8c2f54f4634150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_sampleF.fbx using Guid(bdd45128270bc2f4bb8c2f54f4634150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55669bb5b486e20771a32e3855127709') in 0.033474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_sampleA.fbx
-  artifactKey: Guid(8bb4e634679df37498336d2b660ae185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_sampleA.fbx using Guid(8bb4e634679df37498336d2b660ae185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbae6e700dcbc8f9803c3143e513de9') in 0.019037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_topA.fbx
-  artifactKey: Guid(3e8354ecfe7e7364596b18cad816c19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_topA.fbx using Guid(3e8354ecfe7e7364596b18cad816c19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e218f7fc9835610a00353141829ca88') in 0.033032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_sampleC.fbx
-  artifactKey: Guid(fbe61fd2a61591b479e094521df8a70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/towerSquare_sampleC.fbx using Guid(fbe61fd2a61591b479e094521df8a70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f196f9e90ddc4302b1bca10f3e8e7d4') in 0.033957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.620161 seconds.
-  path: Assets/Environment Assets/kenny-Tower-Defense-Pack/woodStructure.fbx
-  artifactKey: Guid(3a3579f82dbfc324b852b9c7a0aa2d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment Assets/kenny-Tower-Defense-Pack/woodStructure.fbx using Guid(3a3579f82dbfc324b852b9c7a0aa2d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00984a6546a6ba4dc89aca4910841ea') in 0.043424 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 123.459723 seconds.
+  path: Assets/Scripts/Settings/TimeSpeed.cs
+  artifactKey: Guid(5873ba5962baf3e4094783343e4375eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Settings/TimeSpeed.cs using Guid(5873ba5962baf3e4094783343e4375eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a7b5ec43c7c6b087a2bf0b533d2224') in 0.006158 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006541 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.030 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1031ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (714ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (242ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3353 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3832.
+Memory consumption went from 115.4 MB to 115.4 MB.
+Total: 2.439000 ms (FindLiveObjects: 0.225000 ms CreateObjectMapping: 0.139000 ms MarkObjects: 2.047700 ms  DeleteObjects: 0.026500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30.264530 seconds.
+  path: Assets/Scripts/Settings/TimeSpeed.cs
+  artifactKey: Guid(5873ba5962baf3e4094783343e4375eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Settings/TimeSpeed.cs using Guid(5873ba5962baf3e4094783343e4375eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cf3eef5b2505e672de86f179fdbf76') in 0.005557 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005318 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Domain Reload Profiling:
+	ReloadAssembly (957ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (710ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3353 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3835.
+Memory consumption went from 115.5 MB to 115.4 MB.
+Total: 2.599100 ms (FindLiveObjects: 0.219000 ms CreateObjectMapping: 0.127100 ms MarkObjects: 2.230900 ms  DeleteObjects: 0.021500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 267.218521 seconds.
+  path: Assets/Scripts/Settings/TimeSpeed.cs
+  artifactKey: Guid(5873ba5962baf3e4094783343e4375eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Settings/TimeSpeed.cs using Guid(5873ba5962baf3e4094783343e4375eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d9078688926f4eaf9d2d57d2e32cce') in 0.006995 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005365 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Domain Reload Profiling:
+	ReloadAssembly (934ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (692ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3353 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3838.
+Memory consumption went from 115.5 MB to 115.4 MB.
+Total: 3.010500 ms (FindLiveObjects: 0.221900 ms CreateObjectMapping: 0.137800 ms MarkObjects: 2.625100 ms  DeleteObjects: 0.024900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005866 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.967 seconds
+Domain Reload Profiling:
+	ReloadAssembly (968ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (740ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (344ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3353 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3841.
+Memory consumption went from 115.5 MB to 115.5 MB.
+Total: 2.695500 ms (FindLiveObjects: 0.230400 ms CreateObjectMapping: 0.259200 ms MarkObjects: 2.183500 ms  DeleteObjects: 0.021700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005535 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Domain Reload Profiling:
+	ReloadAssembly (956ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (736ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (334ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3353 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3844.
+Memory consumption went from 115.5 MB to 115.5 MB.
+Total: 3.086900 ms (FindLiveObjects: 0.241900 ms CreateObjectMapping: 0.139200 ms MarkObjects: 2.682300 ms  DeleteObjects: 0.022300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005109 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.949 seconds
+Domain Reload Profiling:
+	ReloadAssembly (950ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (694ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3353 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3847.
+Memory consumption went from 115.5 MB to 115.5 MB.
+Total: 3.284900 ms (FindLiveObjects: 0.220300 ms CreateObjectMapping: 0.131600 ms MarkObjects: 2.909400 ms  DeleteObjects: 0.022700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007186 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.908 seconds
+Domain Reload Profiling:
+	ReloadAssembly (909ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (676ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (300ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3353 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3850.
+Memory consumption went from 115.5 MB to 115.5 MB.
+Total: 2.911200 ms (FindLiveObjects: 0.231400 ms CreateObjectMapping: 0.151800 ms MarkObjects: 2.491400 ms  DeleteObjects: 0.035700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005808 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.907 seconds
+Domain Reload Profiling:
+	ReloadAssembly (907ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (679ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (227ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (305ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3353 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3853.
+Memory consumption went from 115.5 MB to 115.5 MB.
+Total: 2.533300 ms (FindLiveObjects: 0.226200 ms CreateObjectMapping: 0.138100 ms MarkObjects: 2.148700 ms  DeleteObjects: 0.019300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005325 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Domain Reload Profiling:
+	ReloadAssembly (954ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (715ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3353 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3856.
+Memory consumption went from 115.5 MB to 115.5 MB.
+Total: 2.786200 ms (FindLiveObjects: 0.275500 ms CreateObjectMapping: 0.242600 ms MarkObjects: 2.241300 ms  DeleteObjects: 0.026000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005609 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.928 seconds
+Domain Reload Profiling:
+	ReloadAssembly (929ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (697ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3353 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3859.
+Memory consumption went from 115.5 MB to 115.5 MB.
+Total: 2.634600 ms (FindLiveObjects: 0.228500 ms CreateObjectMapping: 0.136000 ms MarkObjects: 2.246100 ms  DeleteObjects: 0.023200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005165 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.942 seconds
+Domain Reload Profiling:
+	ReloadAssembly (942ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (707ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (319ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3353 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3862.
+Memory consumption went from 115.5 MB to 115.5 MB.
+Total: 3.037500 ms (FindLiveObjects: 0.313200 ms CreateObjectMapping: 0.321000 ms MarkObjects: 2.376800 ms  DeleteObjects: 0.025400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
