@@ -59,7 +59,8 @@ PrefabInstance:
       propertyPath: gameOverUI
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8617579805559347648, guid: 53d02181f9b1b6642bf2601b2b30cd97, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 53d02181f9b1b6642bf2601b2b30cd97, type: 3}
 --- !u!1 &1745464929334024801 stripped
 GameObject:
@@ -80,7 +81,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 6265673823059658916, guid: b543ca457aff2324b83e3c9dccd7fbc9, type: 3}
   spawnPoint: {fileID: 7004076501752898037, guid: 53d02181f9b1b6642bf2601b2b30cd97, type: 3}
-  timeBetweenWaves: 5
+  timeBetweenWaves: 1
   waves:
   - enemy: {fileID: 6265673823059658904, guid: b543ca457aff2324b83e3c9dccd7fbc9, type: 3}
     count: 3
@@ -110,7 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startlives: 10
-  startMoney: 100
+  startMoney: 50
 --- !u!114 &26113899
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -25,7 +25,7 @@ public class WaveSpawner : MonoBehaviour
             return;
         }
 
-        if(countdown <= 0f)
+        if (countdown <= 0f)
         {
             StartCoroutine(SpawnWave());
             countdown = timeBetweenWaves;
@@ -41,6 +41,8 @@ public class WaveSpawner : MonoBehaviour
         PlayerStats.Rounds++;
         
         Wave wave = waves[waveNumber];
+
+        
 
         for (int i = 0; i < wave.count; i++)
         {
