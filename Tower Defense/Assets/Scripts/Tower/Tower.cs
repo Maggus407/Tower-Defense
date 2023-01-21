@@ -7,6 +7,7 @@ public class Tower : MonoBehaviour
     /* private List<GameObject> enemies; */
     private Vector3 currentEnemie;
     private Transform target;
+    private Enemy enemy;
 
     [HeaderAttribute("General")]
     public float range = 10f;
@@ -16,7 +17,7 @@ public class Tower : MonoBehaviour
     private float fireCountDown = 0f;
     
     [HeaderAttribute("Use Laser")]
-
+    public int damageOverTime = 30;
     public bool useLaser = false;
     public LineRenderer lineRenderer;
     public ParticleSystem impactEffect;
@@ -46,6 +47,7 @@ public class Tower : MonoBehaviour
         }
         if(nearestEnemy != null && shortestDistance <= range){
             target = nearestEnemy.transform;
+            enemy = nearestEnemy.GetComponent<Enemy>();
         }else{
             target = null;
         }
@@ -98,6 +100,8 @@ public class Tower : MonoBehaviour
     }
 
     void Laser(){
+
+        enemy.TakeDamage(damageOverTime * Time.deltaTime);
         if(!lineRenderer.enabled){
             lineRenderer.enabled = true;
             impactEffect.Play();
