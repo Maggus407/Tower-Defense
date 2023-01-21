@@ -42,7 +42,6 @@ public class WaveSpawner : MonoBehaviour
 
         Wave wave = waves[waveNumber];
 
-
         for (int i = 0; i < wave.count; i++)
         {
             SpawnEnemy(wave.enemy);
