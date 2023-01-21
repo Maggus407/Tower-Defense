@@ -16,10 +16,13 @@ C:/Users/henri/source/repos/Tower-Defense/Tower Defense
 Logs/AssetImportWorker1.log
 -srvPort
 <<<<<<< HEAD
+<<<<<<< HEAD
 50658
 Successfully changed project path to: C:/Users/henri/source/repos/Tower-Defense/Tower Defense
 C:/Users/henri/source/repos/Tower-Defense/Tower Defense
 =======
+=======
+>>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
 64412
 Successfully changed project path to: S:/Tower-Defense/Tower Defense
 S:/Tower-Defense/Tower Defense
@@ -54,7 +57,11 @@ S:/Tower-Defense/Tower Defense
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< HEAD
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 84.03 ms, found 3 plugins.
+=======
+Refreshing native plugins compatible for Editor in 83.21 ms, found 3 plugins.
+>>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
 =======
 Refreshing native plugins compatible for Editor in 83.21 ms, found 3 plugins.
 >>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
@@ -104,12 +111,16 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (670ms)
 		BeginReloadAssembly (94ms)
+<<<<<<< HEAD
+>>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
+=======
 >>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 		EndReloadAssembly (516ms)
 			LoadAssemblies (88ms)
@@ -136,10 +147,25 @@ Domain Reload Profiling:
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
+=======
+		EndReloadAssembly (472ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (122ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+>>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
 				RefreshPlugins (78ms)
 				BeforeProcessingInitializeOnLoad (2ms)
 				ProcessInitializeOnLoadAttributes (140ms)
 				ProcessInitializeOnLoadMethodAttributes (45ms)
+<<<<<<< HEAD
+>>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
+=======
 >>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -148,7 +174,11 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
 <<<<<<< HEAD
+<<<<<<< HEAD
 Registered in 0.010440 seconds.
+=======
+Registered in 0.006122 seconds.
+>>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
 =======
 Registered in 0.006122 seconds.
 >>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
@@ -156,6 +186,7 @@ Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\henri\source\repos\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\henri\source\repos\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
+<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -197,10 +228,32 @@ Domain Reload Profiling:
 			RebuildScriptCaches (56ms)
 			SetupLoadedEditorAssemblies (394ms)
 >>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
+=======
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1058ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (830ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (394ms)
+>>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 				BeforeProcessingInitializeOnLoad (103ms)
 				ProcessInitializeOnLoadAttributes (285ms)
@@ -226,6 +279,14 @@ Total: 3.138500 ms (FindLiveObjects: 0.289300 ms CreateObjectMapping: 0.080600 m
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
+=======
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+>>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
@@ -237,6 +298,9 @@ Unloading 3362 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 25 unused Assets / (56.1 KB). Loaded Objects now: 3822.
 Memory consumption went from 115.9 MB to 115.8 MB.
 Total: 3.236200 ms (FindLiveObjects: 0.275600 ms CreateObjectMapping: 0.235700 ms MarkObjects: 2.650800 ms  DeleteObjects: 0.073300 ms)
+<<<<<<< HEAD
+>>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
+=======
 >>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -251,6 +315,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
 <<<<<<< HEAD
   Time since last request: 2451.858631 seconds.
   path: Assets/Materials/New Material 1.mat
@@ -391,6 +456,13 @@ Total: 3.412300 ms (FindLiveObjects: 0.380500 ms CreateObjectMapping: 0.088900 m
   artifactKey: Guid(13ee45ef494f52a4dabe18903160f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/BulletImpsctEffect.prefab using Guid(13ee45ef494f52a4dabe18903160f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad14bdc64bda6fb633d779ee7d7eabe') in 0.157047 seconds 
 ========================================================================
+=======
+  Time since last request: 18668.809086 seconds.
+  path: Assets/Prefabs/BulletImpsctEffect.prefab
+  artifactKey: Guid(13ee45ef494f52a4dabe18903160f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletImpsctEffect.prefab using Guid(13ee45ef494f52a4dabe18903160f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad14bdc64bda6fb633d779ee7d7eabe') in 0.157047 seconds 
+========================================================================
+>>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
 Received Import Request.
   Time since last request: 0.000019 seconds.
   path: Assets/Prefabs/SchussTowerLVL1 Variant 1.prefab
@@ -441,6 +513,9 @@ Unloading 3355 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3835.
 Memory consumption went from 120.0 MB to 120.0 MB.
 Total: 3.070600 ms (FindLiveObjects: 0.271000 ms CreateObjectMapping: 0.144400 ms MarkObjects: 2.634300 ms  DeleteObjects: 0.020300 ms)
+<<<<<<< HEAD
+>>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
+=======
 >>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -456,6 +531,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.010273 seconds.
 Begin MonoManager ReloadAssembly
@@ -500,6 +576,8 @@ Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3870.
 Memory consumption went from 120.2 MB to 120.2 MB.
 Total: 3.306200 ms (FindLiveObjects: 0.299800 ms CreateObjectMapping: 0.073800 ms MarkObjects: 2.907600 ms  DeleteObjects: 0.024200 ms)
 =======
+=======
+>>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
 Registered in 0.006307 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image S:\Tower-Defense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -934,6 +1012,9 @@ Unloading 3354 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3858.
 Memory consumption went from 120.1 MB to 120.1 MB.
 Total: 2.792600 ms (FindLiveObjects: 0.242600 ms CreateObjectMapping: 0.145000 ms MarkObjects: 2.380000 ms  DeleteObjects: 0.023800 ms)
+<<<<<<< HEAD
+>>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
+=======
 >>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -947,9 +1028,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
+=======
+>>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
 =======
 >>>>>>> eec67d4e41e0f4e12d4c131d3bd8f3ee6cada184
