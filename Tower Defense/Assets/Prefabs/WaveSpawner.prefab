@@ -9,7 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7004076501752898037}
-  - component: {fileID: 8617579805559347648}
+  - component: {fileID: 26113897}
+  - component: {fileID: 26113898}
+  - component: {fileID: 26113899}
   m_Layer: 0
   m_Name: WaveSpawner
   m_TagString: Untagged
@@ -32,7 +34,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8617579805559347648
+--- !u!114 &26113897
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,7 +43,56 @@ MonoBehaviour:
   m_GameObject: {fileID: 7004076501752898038}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ffb903a69032234e9e520e0da673458, type: 3}
+  m_Script: {fileID: 11500000, guid: d913286e013ff6443819ce7b6e3426c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverUI: {fileID: 0}
+  enemyPrefab: {fileID: 6265673823059658916, guid: b543ca457aff2324b83e3c9dccd7fbc9, type: 3}
+  spawnPoint: {fileID: 7004076501752898037}
+  timeBetweenWaves: 5
+  waves:
+  - enemy: {fileID: 6265673823059658904, guid: b543ca457aff2324b83e3c9dccd7fbc9, type: 3}
+    count: 3
+    rate: 3
+  - enemy: {fileID: 6265673823059658904, guid: 5bc79df6f71c577499c68340f9ba470f, type: 3}
+    count: 3
+    rate: 2
+  - enemy: {fileID: 6265673823059658904, guid: 6157a2d2c4e5b4e4ba48a70308ee5ccd, type: 3}
+    count: 1
+    rate: 1
+  - enemy: {fileID: 0}
+    count: 0
+    rate: 0
+  - enemy: {fileID: 0}
+    count: 0
+    rate: 0
+--- !u!114 &26113898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7004076501752898038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd890a4fee3ad694cb82778d076674b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startlives: 10
+  startMoney: 50
+--- !u!114 &26113899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7004076501752898038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56d1856a865af16469f5f1a3c91adf8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startSpeed: 5
+  speed: 0
+  startHealth: 100
+  health: 0
+  worth: 50

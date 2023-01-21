@@ -25,7 +25,7 @@ public class WaveSpawner : MonoBehaviour
             return;
         }
 
-        if(countdown <= 0f)
+        if (countdown <= 0f)
         {
             StartCoroutine(SpawnWave());
             countdown = timeBetweenWaves;
