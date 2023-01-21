@@ -4,11 +4,23 @@ using UnityEngine;
 
 public class PlaceObjects : MonoBehaviour
 {
-    [SerializeField] private Camera mainCamera;
-    public GameObject placeTurretPrefab;
+    private GameObject placeTurretPrefab;
+    [SerializeField] 
+    private Camera mainCamera;
 
     private GameObject currentPlaceableObject;
     RaycastHit placableHit;
+
+    public GameObject PlaceTurretPrefab{
+        get
+        {
+            return placeTurretPrefab;
+        }
+        set
+        {
+            placeTurretPrefab = value;
+        }
+    }
 
     void Start(){
         Physics.IgnoreLayerCollision(6,6);
