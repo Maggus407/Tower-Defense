@@ -20,11 +20,16 @@ public class WaveSpawner : MonoBehaviour
 
     void Update(){
 
-        
+        if(EnemiesAlive > 0)
+        {
+            return;
+        }
 
-        if(countdown <= 0){
+        if(countdown <= 0f)
+        {
             StartCoroutine(SpawnWave());
             countdown = timeBetweenWaves;
+            return;
         }
 
         //Zählt die vergangene Zeit seit dem letzten Frame Update
@@ -36,6 +41,7 @@ public class WaveSpawner : MonoBehaviour
         PlayerStats.Rounds++;
 
         Wave wave = waves[waveNumber];
+
 
         for (int i = 0; i < wave.count; i++)
         {

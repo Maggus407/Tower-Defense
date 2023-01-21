@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,7 +12,7 @@ public class EnemyPathFinder : MonoBehaviour
     private Enemy enemy;
     private WaveFunction waveFunction;
     
-    void Start(){       
+    void Start(){
         pathfinder = WaveFunction.pathForEnemy;
         enemy = GetComponent<Enemy>();
 
@@ -42,10 +43,7 @@ public class EnemyPathFinder : MonoBehaviour
 
     void EndPath()
     {
-        if(PlayerStats.Lives > 0)
-        {
-            PlayerStats.Lives--;
-        }
+        PlayerStats.Lives--;
         WaveSpawner.EnemiesAlive--;
         Destroy(gameObject);
     }

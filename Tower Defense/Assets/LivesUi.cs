@@ -7,9 +7,12 @@ public class LivesUi : MonoBehaviour
 {
     public Text livesText;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        livesText.text = PlayerStats.Lives + " Lives";
+        livesText.text = PlayerStats.Lives.ToString();
+        if(PlayerStats.Lives <= 3)
+        {
+            livesText.color = Color.red;
+        }
     }
 }
