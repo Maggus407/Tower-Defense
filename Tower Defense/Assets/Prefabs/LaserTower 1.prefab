@@ -403,6 +403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 20
   fireRate: 2
+  damageOverTime: 30
   useLaser: 1
   lineRenderer: {fileID: 6894866782839429311}
   impactEffect: {fileID: 2095565746419823034}
@@ -572,7 +573,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7dd6ae830fa2ad64fa0a49c779284539, type: 2}
+  - {fileID: 2100000, guid: bc2a8998beda364428a72179ddb168bd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -738,7 +739,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7dd6ae830fa2ad64fa0a49c779284539, type: 2}
+  - {fileID: 2100000, guid: bc2a8998beda364428a72179ddb168bd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -821,7 +822,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7dd6ae830fa2ad64fa0a49c779284539, type: 2}
+  - {fileID: 2100000, guid: bc2a8998beda364428a72179ddb168bd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1018,7 +1019,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7dd6ae830fa2ad64fa0a49c779284539, type: 2}
+  - {fileID: 2100000, guid: bc2a8998beda364428a72179ddb168bd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1101,7 +1102,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7dd6ae830fa2ad64fa0a49c779284539, type: 2}
+  - {fileID: 2100000, guid: bc2a8998beda364428a72179ddb168bd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
