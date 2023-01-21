@@ -104,6 +104,9 @@ public class WaveFunction : MonoBehaviour
     //Hab doch selber keinen Plan mehr
     List<Node> neuerPath;
 
+    //Loading Screen
+    public GameObject loadingScreen;
+
     //[asset prefab, {TOP, RIGHT, BOTTOM, LEFT}, probability, # of pathsides]
     /*
         G = Green
@@ -114,6 +117,7 @@ public class WaveFunction : MonoBehaviour
 
     void Awake()
     {
+
         tempEnviromentTiles = new List<Tile>
         {
             new Tile(assets[0], new string[] { "GGG", "GGG", "GGG", "GGG" }, 60,0, "Grass"),  //Grass - TileVariant
@@ -351,6 +355,8 @@ initilize every Grid Cell
         //If the List is empty, the Map is finished
         if (entropyPerCell.Count == 0)
         {
+            Debug.Log("Map Finished");
+            loadingScreen.SetActive(false);
             return;
         }
         
@@ -515,6 +521,8 @@ initilize every Grid Cell
         SortEntropybyTotalWeight();
         if (entropyPerCell.Count == 0)
         {
+            Debug.Log("Map Finished");
+            loadingScreen.SetActive(false);
             return;
         }
         PlaceNexttile();
@@ -527,8 +535,7 @@ initilize every Grid Cell
         {
             t.GetSetTile.SetActive(false);
         }
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
+            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
     }
 
     private List<Tile> SecondCheckPhase(bool execute, List<Tile> checkList, int height, int width, Cell parent)
