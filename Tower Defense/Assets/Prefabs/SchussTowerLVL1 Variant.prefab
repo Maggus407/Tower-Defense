@@ -59,8 +59,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 580db23b5b472bd4e8def7ad0aeef3d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireRate: 1
   range: 10
+  fireRate: 1
+  useLaser: 0
+  lineRenderer: {fileID: 0}
   enemyTag: Enemy
   partToRotate: {fileID: 313623788978589393}
   turnSpeed: 15
@@ -986,6 +988,7 @@ GameObject:
   - component: {fileID: 6607029468409061360}
   - component: {fileID: 7684433565847573178}
   - component: {fileID: 3805993105256260911}
+  - component: {fileID: 1107846775997940728}
   m_Layer: 0
   m_Name: SchussTowerLVL1 Variant
   m_TagString: CantPlace
@@ -1065,6 +1068,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.000598, y: 1.3758521, z: 1.9514613}
   m_Center: {x: 0.000746727, y: 0.54521775, z: -0.014149427}
+--- !u!114 &1107846775997940728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5835313711513797962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 580db23b5b472bd4e8def7ad0aeef3d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 10
+  fireRate: 2
+  useLaser: 0
+  lineRenderer: {fileID: 0}
+  enemyTag: Enemy
+  partToRotate: {fileID: 313623788978589393}
+  turnSpeed: 10
+  bulletPrefab: {fileID: 8975669765629666607, guid: 48f215f6fe82b1147b063c431b69e062, type: 3}
+  firePoint: {fileID: 1991427430357605333}
 --- !u!1 &6119178084814511219
 GameObject:
   m_ObjectHideFlags: 0

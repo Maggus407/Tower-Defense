@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
     public float speed;
 
     public float startHealth = 100;
-    private float health;
+    public float health;
 
     public int worth = 50;
 
@@ -26,7 +26,7 @@ public class Enemy : MonoBehaviour
     public void TakeDamage (float amount)
     {
         health -= amount;
-
+       
         if (health <= 0 && !isDead)
         {
             Die();

@@ -10,7 +10,7 @@ public class WaveSpawner : MonoBehaviour
 
     public static int EnemiesAlive = 0;
 
-    public float timeBetweenWaves = 5f;
+    public float timeBetweenWaves = 3f;
     
     private float countdown = 2f;
 
@@ -39,7 +39,7 @@ public class WaveSpawner : MonoBehaviour
     IEnumerator SpawnWave(){
 
         PlayerStats.Rounds++;
-
+        
         Wave wave = waves[waveNumber];
 
         for (int i = 0; i < wave.count; i++)

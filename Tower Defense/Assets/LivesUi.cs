@@ -9,6 +9,7 @@ public class LivesUi : MonoBehaviour
 
     private void Update()
     {
+        if (PlayerStats.Lives < 0) { return; } 
         livesText.text = PlayerStats.Lives.ToString();
         if(PlayerStats.Lives <= 3)
         {
