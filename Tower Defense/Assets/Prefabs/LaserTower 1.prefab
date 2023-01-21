@@ -334,7 +334,7 @@ GameObject:
   - component: {fileID: 2322128610207325524}
   - component: {fileID: 6678824628295247991}
   - component: {fileID: 6894866782839429311}
-  - component: {fileID: -1782742747965229949}
+  - component: {fileID: 2199696753633244777}
   m_Layer: 0
   m_Name: LaserTower 1
   m_TagString: Untagged
@@ -513,7 +513,7 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
---- !u!65 &-1782742747965229949
+--- !u!65 &2199696753633244777
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -524,8 +524,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 1.3233368, y: 1.3233368, z: 6.3233366}
-  m_Center: {x: -3.8146114, y: 1, z: -1.1175852}
+  m_Size: {x: 0.92760134, y: 0.47379172, z: 1.4035544}
+  m_Center: {x: 0.116858244, y: 0.4873435, z: -0.47768235}
 --- !u!1 &2322128610216685200
 GameObject:
   m_ObjectHideFlags: 0
