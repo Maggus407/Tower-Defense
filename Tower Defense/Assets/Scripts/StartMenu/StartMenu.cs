@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class StartMenu : MonoBehaviour
 {
-    public void LoadGame()
+    public void LoadLevel()
     {
-        SceneManager.LoadSceneAsync("GameScene");
+        SceneManager.LoadSceneAsync("LevelSelect");
     }
 
     public void LoadHighScore()

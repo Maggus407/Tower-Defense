@@ -9,6 +9,6 @@ public class MediumButton : MonoBehaviour
     {
         WaveSpawner.difficulty = 1;
         PlayerStats.Lives = 50;
-        SceneManager.LoadScene(sceneID);
+        SceneManager.LoadScene("GameScene");
     }
 }

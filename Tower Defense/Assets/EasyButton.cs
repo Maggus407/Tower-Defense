@@ -10,6 +10,6 @@ public class EasyButton : MonoBehaviour
     {
         WaveSpawner.difficulty = 0;
         PlayerStats.Lives = 100;
-        SceneManager.LoadScene(sceneID);
+        SceneManager.LoadScene("GameScene");
     }
 }

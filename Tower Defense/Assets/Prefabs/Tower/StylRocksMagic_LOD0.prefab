@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1307999882417704118}
   - component: {fileID: 876549455276076341}
-  - component: {fileID: -957778330258627040}
+  - component: {fileID: -7927052319892309068}
   m_Layer: 0
   m_Name: StylRocksMagic_LOD0
   m_TagString: Untagged
@@ -51,7 +51,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0150478, y: 1.9942636, z: 1.4392996}
   m_Center: {x: -0.027363181, y: 0.9736259, z: -0.055463552}
---- !u!114 &-957778330258627040
+--- !u!114 &-7927052319892309068
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -60,7 +60,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1832158393879680524}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bfad50eda892344baa7742787182481, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b28d1974a61e9545855ec52d879e4bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1025410861156285987

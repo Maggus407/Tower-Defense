@@ -20,7 +20,15 @@ public class EnemyPathFinder : MonoBehaviour
         //Ignoriert alle Collisions --> Damit Enemies sich auch überholen können
         for (int i = 0; i < 6; i++)
         {
+            if(i == 2)
+            {
+                continue;
+            }
+            else
+            {
             Physics.IgnoreLayerCollision(0, i, true);           
+                
+            }
         }
    }
 
