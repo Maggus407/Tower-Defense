@@ -65,8 +65,8 @@ public class Tower : MonoBehaviour
             }
             return;
         }
-        LockOntarget();
 
+        LockOntarget();
         if(useLaser){
             Laser();
         }else{

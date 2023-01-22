@@ -18,7 +18,18 @@ public class EnemyPathFinder : MonoBehaviour
 
         target = new Vector3(pathfinder[wavepointIndex].Width, 0.6f, pathfinder[wavepointIndex].Height);
         //Ignoriert alle Collisions --> Damit Enemies sich auch überholen können
-        Physics.IgnoreLayerCollision(0, 6, true);
+        for (int i = 0; i < 6; i++)
+        {
+            if(i == 2)
+            {
+                continue;
+            }
+            else
+            {
+            Physics.IgnoreLayerCollision(0, i, true);           
+                
+            }
+        }
    }
 
 

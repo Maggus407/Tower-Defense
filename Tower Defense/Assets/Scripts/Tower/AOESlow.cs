@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class AOESlow : MonoBehaviour
 {
-    List<GameObject> currentEnemies;
-
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Enemy"))

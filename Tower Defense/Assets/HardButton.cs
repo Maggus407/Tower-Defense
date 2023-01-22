@@ -9,6 +9,6 @@ public class HardButton : MonoBehaviour
     {
         WaveSpawner.difficulty = 2;
         PlayerStats.Lives = 15;
-        SceneManager.LoadScene(sceneID);
+        SceneManager.LoadScene("GameScene");
     }
 }

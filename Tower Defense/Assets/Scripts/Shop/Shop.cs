@@ -41,7 +41,6 @@ public class Shop : MonoBehaviour
     }
 
     public void PurchaseTurret(int i){
-        Debug.Log(i);
         if (PlayerStats.Money >= turretBluePrint[i].cost)
         {
             PlayerStats.Money -= turretBluePrint[i].cost;
