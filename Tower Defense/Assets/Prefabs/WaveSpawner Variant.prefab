@@ -143,6 +143,10 @@ PrefabInstance:
       propertyPath: MediumWaves.Array.data[0].enemy
       value: 
       objectReference: {fileID: 6265673823059658904, guid: 5bc79df6f71c577499c68340f9ba470f, type: 3}
+    - target: {fileID: 26113898, guid: 53d02181f9b1b6642bf2601b2b30cd97, type: 3}
+      propertyPath: startMoney
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7004076501752898037, guid: 53d02181f9b1b6642bf2601b2b30cd97, type: 3}
       propertyPath: m_RootOrder
       value: 0
