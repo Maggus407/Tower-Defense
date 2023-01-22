@@ -9,6 +9,18 @@ public class WaveCounter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        roundsText.text = PlayerStats.Rounds.ToString() + (" /10");
+        switch(WaveSpawner.difficulty)
+        {
+            case 0:
+                roundsText.text = PlayerStats.Rounds.ToString() + (" /10");
+                break;
+            case 1:
+                roundsText.text = PlayerStats.Rounds.ToString() + (" /20");
+                break;
+            case 2:
+                roundsText.text = PlayerStats.Rounds.ToString() + (" /30");
+                break;
+        }
+        
     }
 }
