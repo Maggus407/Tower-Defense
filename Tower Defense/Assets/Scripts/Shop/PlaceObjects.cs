@@ -55,7 +55,7 @@ public class PlaceObjects : MonoBehaviour
         RaycastHit hitInfo;
         if(Physics.Raycast(ray, out hitInfo)){
             placableHit = hitInfo;
-            currentPlaceableObject.transform.position = new Vector3(hitInfo.point.x, hitInfo.point.y+0.2f, hitInfo.point.z);
+            currentPlaceableObject.transform.position = new Vector3(hitInfo.point.x, hitInfo.point.y+0.1f, hitInfo.point.z);
         }
     }
 }
