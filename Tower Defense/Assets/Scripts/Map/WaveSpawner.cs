@@ -16,6 +16,8 @@ public class WaveSpawner : MonoBehaviour
 
     private int waveNumber = 0;
 
+    public GameManager gameManager;
+    [HideInInspector]
     public Wave[] waves;
 
     public Wave[] easyWaves = new Wave[9];
@@ -23,12 +25,31 @@ public class WaveSpawner : MonoBehaviour
     public Wave[] HardWaves = new Wave[29];
 
     public static int difficulty;
+    public static bool over;
 
     void Update(){
 
-        if(EnemiesAlive > 0)
+        switch (difficulty)
+        {
+            case 0:
+                waves = easyWaves;
+                break;
+            case 1:
+                waves = MediumWaves;
+                break;
+            case 2:
+                waves = HardWaves;
+                break;
+        }
+
+        if (EnemiesAlive > 0)
         {
             return;
+        }
+
+        if(waveNumber == waves.Length)
+        {
+            over = true;
         }
 
         if (countdown <= 0f)
@@ -46,7 +67,7 @@ public class WaveSpawner : MonoBehaviour
 
         PlayerStats.Rounds++;
 
-        Wave wave = easyWaves[waveNumber];
+        Wave wave = waves[0];
 
         switch (difficulty)
         {
@@ -60,7 +81,6 @@ public class WaveSpawner : MonoBehaviour
                 wave = HardWaves[waveNumber];
                 break;
         }
-        
 
         for (int i = 0; i < wave.count; i++)
         {

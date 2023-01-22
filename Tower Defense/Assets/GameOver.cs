@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameOver : MonoBehaviour
@@ -11,4 +12,16 @@ public class GameOver : MonoBehaviour
     {
         roundsText.text = PlayerStats.Rounds.ToString();
     }
+
+    public void Menu(int sceneID)
+    {
+        SceneManager.LoadScene(sceneID);
+    }
+
+    public void Retry()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+
 }

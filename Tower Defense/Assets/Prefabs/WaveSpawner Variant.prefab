@@ -8,6 +8,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 26113897, guid: 53d02181f9b1b6642bf2601b2b30cd97, type: 3}
+      propertyPath: waves.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 26113897, guid: 53d02181f9b1b6642bf2601b2b30cd97, type: 3}
       propertyPath: HardWaves.Array.data[0].rate
       value: 1
       objectReference: {fileID: 0}
