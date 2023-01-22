@@ -15,5 +15,6 @@ public class LivesUi : MonoBehaviour
         {
             livesText.color = Color.red;
         }
+        
     }
 }
